@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
-import { X } from 'lucide-react';
+import { X, ExternalLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import type { Column } from '../types';
 import { DropdownPanel } from './DropdownPanel';
 
@@ -49,6 +50,13 @@ export function ColumnHeader({ column }: ColumnHeaderProps) {
               </button>
             </div>
             {column.description && <p>{column.description}</p>}
+            <Link
+              to={`/column/${column.id}`}
+              onClick={() => setExpanded(false)}
+              className="inline-flex items-center gap-1 mt-2 text-purple-700 hover:underline"
+            >
+              <ExternalLink size={12} /> Открыть на отдельной странице
+            </Link>
           </div>
         </DropdownPanel>
       )}

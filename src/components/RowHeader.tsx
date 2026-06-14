@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
-import { X } from 'lucide-react';
+import { X, ExternalLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import type { Row } from '../types';
 import { DropdownPanel } from './DropdownPanel';
 
@@ -41,6 +42,13 @@ export function RowHeader({ row }: RowHeaderProps) {
             {row.miasm && <p><span className="font-semibold">Миазм:</span> {row.miasm}</p>}
             {row.creationDay && <p><span className="font-semibold">День творения:</span> {row.creationDay}</p>}
             {row.description && <p className="mt-1">{row.description}</p>}
+            <Link
+              to={`/row/${row.id}`}
+              onClick={() => setExpanded(false)}
+              className="inline-flex items-center gap-1 mt-2 text-purple-700 hover:underline"
+            >
+              <ExternalLink size={12} /> Открыть на отдельной странице
+            </Link>
           </div>
         </DropdownPanel>
       )}
