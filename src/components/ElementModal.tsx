@@ -38,7 +38,7 @@ export function ElementModal({ cell, onClose }: ElementModalProps) {
               {cell.symbol ? `${cell.symbol} — ${cell.name}` : 'Описание ячейки'}
             </h2>
             <p className="text-sm text-gray-600 mt-1">
-              {row?.label} · Колонка {cell.column}: {column?.title}
+              {row?.title}{row?.subtitle ? ` / ${row.subtitle}` : ''} · Колонка {cell.column}: {column?.title}
             </p>
           </div>
           <button

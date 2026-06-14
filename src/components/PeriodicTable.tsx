@@ -43,7 +43,7 @@ export function PeriodicTable({ mode, onCellSelect }: PeriodicTableProps) {
         <div
           className="grid gap-1 min-w-[1400px]"
           style={{
-            gridTemplateColumns: '110px repeat(18, minmax(70px, 1fr))',
+            gridTemplateColumns: '132px repeat(18, minmax(70px, 1fr))',
             gridTemplateRows: 'auto repeat(9, 78px)',
           }}
         >

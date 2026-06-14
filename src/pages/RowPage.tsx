@@ -29,8 +29,9 @@ export function RowPage() {
       </Link>
 
       <div className="bg-white rounded-xl shadow border border-[#d4d0c8] p-6">
-        <h1 className="text-2xl font-bold text-gray-900">{row.label}</h1>
-        <p className="text-gray-600 mt-2">Ряд {row.id}</p>
+        <h1 className={row.subtitle ? "text-2xl font-bold text-gray-900" : "text-2xl font-bold italic text-purple-800"}>{row.title}</h1>
+        {row.subtitle && <p className="text-purple-800 italic font-semibold mt-1">{row.subtitle}</p>}
+        <p className="text-gray-500 mt-1">Ряд {row.id}</p>
 
         <div className="mt-4 space-y-2 text-sm text-gray-700">
           {row.creationDay && (

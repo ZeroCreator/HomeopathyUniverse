@@ -22,7 +22,8 @@ export interface Column {
 
 export interface Row {
   id: PeriodId;
-  label: string;
+  title: string;
+  subtitle: string;
   miasm: string;
   creationDay: string;
   description?: string;

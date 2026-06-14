@@ -38,7 +38,7 @@ export function ElementPage() {
           {cell.symbol ? `${cell.symbol} — ${cell.name}` : 'Описание ячейки'}
         </h1>
         <p className="text-gray-600 mt-2">
-          {rowData?.label} · Колонка {cell.column}: {columnData?.title}
+          {rowData?.title}{rowData?.subtitle ? ` / ${rowData.subtitle}` : ''} · Колонка {cell.column}: {columnData?.title}
         </p>
 
         <div className="flex gap-4 text-sm text-gray-500 mt-2">

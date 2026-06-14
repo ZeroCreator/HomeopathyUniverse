@@ -27,8 +27,8 @@ export function ColumnHeader({ column }: ColumnHeaderProps) {
         <span className="h-10 flex items-center justify-center whitespace-normal break-words w-full overflow-hidden">
           {column.title}
         </span>
-        <span className="h-5 flex items-center justify-center bg-white border border-[#d4d0c8] rounded px-1 text-[9px] text-gray-600 whitespace-normal break-words w-full overflow-hidden">
-          {column.subtitle}
+        <span className="h-6 flex items-center justify-center bg-white border border-[#d4d0c8] rounded px-1 text-[11px] font-bold text-gray-600 whitespace-normal break-words w-full overflow-hidden">
+          {column.id}
         </span>
       </button>
       {expanded && (

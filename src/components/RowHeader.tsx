@@ -13,14 +13,27 @@ export function RowHeader({ row }: RowHeaderProps) {
   const anchorRef = useRef<HTMLButtonElement>(null);
 
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex items-stretch w-full h-full pl-1 pr-0">
       <button
         ref={anchorRef}
         onClick={() => setExpanded(!expanded)}
-        className="text-left text-[11px] font-semibold text-gray-700 hover:text-purple-700 py-1 px-2 leading-tight"
+        className="flex-1 min-w-0 text-left text-[11px] text-gray-700 hover:text-purple-700 leading-tight flex flex-col justify-center"
       >
-        {row.label}
+        {row.subtitle ? (
+          <>
+            <span className="block font-semibold whitespace-normal break-words leading-tight">{row.title}</span>
+            <span className="block font-semibold italic text-purple-800 whitespace-normal break-words leading-tight">{row.subtitle}</span>
+          </>
+        ) : (
+          <span className="block font-semibold italic text-purple-800 whitespace-normal break-words leading-tight">{row.title}</span>
+        )}
       </button>
+      <div
+        className="ml-1 shrink-0 h-full w-6 bg-white border border-[#d4d0c8] rounded flex items-center justify-center text-[11px] text-gray-600 font-bold"
+        title={`Ряд ${row.id}`}
+      >
+        {row.id}
+      </div>
       {expanded && (
         <DropdownPanel
           anchor={anchorRef.current}
@@ -30,7 +43,10 @@ export function RowHeader({ row }: RowHeaderProps) {
         >
           <div className="text-[10px]">
             <div className="flex items-start justify-between gap-2 mb-1">
-              <p className="font-semibold text-gray-800">{row.label}</p>
+              <p className={row.subtitle ? "font-semibold text-gray-800" : "font-semibold italic text-purple-800"}>
+                {row.title}
+                {row.subtitle && <span className="block text-purple-800 italic font-normal">{row.subtitle}</span>}
+              </p>
               <button
                 onClick={() => setExpanded(false)}
                 className="p-0.5 hover:bg-gray-100 rounded shrink-0"
