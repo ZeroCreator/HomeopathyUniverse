@@ -30,3 +30,8 @@ __pycache__
 
 # Kimi
 .kimi
+
+
+# Agent instructions
+AGENTS.md
+docs/
