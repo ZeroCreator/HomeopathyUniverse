@@ -17,7 +17,7 @@ export function RowHeader({ row }: RowHeaderProps) {
       <button
         ref={anchorRef}
         onClick={() => setExpanded(!expanded)}
-        className="flex-1 min-w-0 text-left text-[11px] text-gray-700 hover:text-purple-700 leading-tight flex flex-col justify-center"
+        className="flex-1 min-w-0 text-left row-header-text text-gray-700 hover:text-purple-700 leading-tight flex flex-col justify-center"
       >
         {row.subtitle ? (
           <>
@@ -29,7 +29,7 @@ export function RowHeader({ row }: RowHeaderProps) {
         )}
       </button>
       <div
-        className="ml-1 shrink-0 h-full w-6 bg-white border border-[#d4d0c8] rounded flex items-center justify-center text-[11px] text-gray-600 font-bold"
+        className="ml-1 shrink-0 h-full w-6 bg-white border border-[#d4d0c8] rounded flex items-center justify-center text-[11px] xl:text-[13px] 2xl:text-[14px] text-gray-600 font-bold"
         title={`Ряд ${row.id}`}
       >
         {row.id}

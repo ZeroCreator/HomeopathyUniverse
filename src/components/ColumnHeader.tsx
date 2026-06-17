@@ -17,7 +17,7 @@ export function ColumnHeader({ column }: ColumnHeaderProps) {
       <button
         ref={anchorRef}
         onClick={() => setExpanded(!expanded)}
-        className="text-[10px] font-semibold text-gray-700 hover:text-purple-700 text-center flex flex-col items-center justify-start gap-0 leading-tight w-full h-full"
+        className="col-header-text font-semibold text-gray-700 hover:text-purple-700 text-center flex flex-col items-center justify-start gap-0 leading-tight w-full h-full"
       >
         {column.topTitle && (
           <span className="h-6 flex items-center justify-center whitespace-normal break-words w-full overflow-hidden">
@@ -27,7 +27,7 @@ export function ColumnHeader({ column }: ColumnHeaderProps) {
         <span className="h-10 flex items-center justify-center whitespace-normal break-words w-full overflow-hidden">
           {column.title}
         </span>
-        <span className="h-6 flex items-center justify-center bg-white border border-[#d4d0c8] rounded px-1 text-[11px] font-bold text-gray-600 whitespace-normal break-words w-full overflow-hidden">
+        <span className="h-6 flex items-center justify-center bg-white border border-[#d4d0c8] rounded px-1 text-[11px] xl:text-[13px] 2xl:text-[14px] font-bold text-gray-600 whitespace-normal break-words w-full overflow-hidden">
           {column.id}
         </span>
       </button>

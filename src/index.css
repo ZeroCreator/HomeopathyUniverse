@@ -40,3 +40,60 @@ body {
 button {
   font-family: inherit;
 }
+
+/* Periodic table sizing — stretch to container width */
+.periodic-grid {
+  grid-template-columns: 132px repeat(18, minmax(70px, 1fr));
+  grid-template-rows: auto repeat(9, auto);
+}
+
+/* Element cell base font size */
+.element-cell-base {
+  font-size: 10px;
+}
+
+@media (min-width: 1600px) {
+  .element-cell-base {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .element-cell-base {
+    font-size: 13px;
+  }
+}
+
+/* Column header */
+.col-header-text {
+  font-size: 10px;
+}
+
+@media (min-width: 1600px) {
+  .col-header-text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .col-header-text {
+    font-size: 13px;
+  }
+}
+
+/* Row header */
+.row-header-text {
+  font-size: 11px;
+}
+
+@media (min-width: 1600px) {
+  .row-header-text {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .row-header-text {
+    font-size: 14px;
+  }
+}

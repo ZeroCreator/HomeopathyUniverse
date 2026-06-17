@@ -61,11 +61,11 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
     cell.animals.length === 0;
 
   if (isEmpty) {
-    return <div className="h-full rounded" />;
+    return <div className="h-full rounded aspect-[70/78]" />;
   }
 
   const baseClasses = [
-    'relative rounded p-1.5 text-[10px] leading-tight cursor-pointer transition-transform hover:scale-[1.02] hover:shadow-md overflow-hidden h-full flex flex-col border border-black/5',
+    'relative rounded p-1.5 xl:p-2 element-cell-base leading-tight cursor-pointer transition-transform hover:scale-[1.02] hover:shadow-md overflow-hidden h-full flex flex-col border border-black/5 aspect-[70/78]',
   ].join(' ');
 
   const titleText = cell.properties.join('\n');
@@ -78,19 +78,19 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
         {cell.symbol ? (
           <>
             <div className="flex justify-between items-start">
-              <span className="text-[9px] opacity-80 leading-none">{cell.atomicNumber ?? ''}</span>
-              <span className="text-[8px] opacity-80 leading-none">{cell.atomicMass ?? ''}</span>
+              <span className="text-[9px] xl:text-[10px] 2xl:text-[11px] opacity-80 leading-none">{cell.atomicNumber ?? ''}</span>
+              <span className="text-[8px] xl:text-[9px] 2xl:text-[10px] opacity-80 leading-none">{cell.atomicMass ?? ''}</span>
             </div>
             <div className="flex-1 flex flex-col items-center justify-center text-center">
-              <span className="text-lg font-bold leading-none">{cell.symbol}</span>
+              <span className="text-lg xl:text-xl 2xl:text-2xl font-bold leading-none">{cell.symbol}</span>
               <span className="font-medium leading-none truncate w-full mt-0.5">{cell.name}</span>
             </div>
           </>
         ) : cell.properties.length > 0 ? (
           <div className="flex-1 flex flex-col items-center justify-center text-center">
-            <span className="text-sm font-bold leading-none">{cell.properties[0]}</span>
+            <span className="text-sm xl:text-base 2xl:text-lg font-bold leading-none">{cell.properties[0]}</span>
             {cell.properties[1] && (
-              <span className="text-[9px] font-bold leading-tight mt-0.5">{cell.properties[1]}</span>
+              <span className="text-[9px] xl:text-[10px] 2xl:text-[11px] font-bold leading-tight mt-0.5">{cell.properties[1]}</span>
             )}
           </div>
         ) : (
@@ -102,7 +102,7 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
     const items = cell.plants.length > 0 ? cell.plants : filterByKeywords(cell.text, PLANT_KEYWORDS);
     content = (
       <div className="h-full flex flex-col">
-        {cell.symbol && <span className="font-bold text-xs leading-none mb-1">{cell.symbol}</span>}
+        {cell.symbol && <span className="font-bold text-xs xl:text-sm 2xl:text-base leading-none mb-1">{cell.symbol}</span>}
         {items.length > 0 ? (
           <ul className="space-y-0.5 opacity-95">
             {items.slice(0, 5).map((item, i) => (
@@ -119,7 +119,7 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
     const items = cell.animals.length > 0 ? cell.animals : filterByKeywords(cell.text, ANIMAL_KEYWORDS);
     content = (
       <div className="h-full flex flex-col">
-        {cell.symbol && <span className="font-bold text-xs leading-none mb-1">{cell.symbol}</span>}
+        {cell.symbol && <span className="font-bold text-xs xl:text-sm 2xl:text-base leading-none mb-1">{cell.symbol}</span>}
         {items.length > 0 ? (
           <ul className="space-y-0.5 opacity-95">
             {items.slice(0, 5).map((item, i) => (
@@ -138,18 +138,18 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
         {cell.symbol ? (
           <>
             <div className="flex items-baseline justify-between mb-0.5 min-w-0">
-              <span className="text-[9px] opacity-80 leading-none">{cell.atomicNumber ?? ''}</span>
-              <span className="font-bold text-xs leading-none">{cell.symbol}</span>
+              <span className="text-[9px] xl:text-[10px] 2xl:text-[11px] opacity-80 leading-none">{cell.atomicNumber ?? ''}</span>
+              <span className="font-bold text-xs xl:text-sm 2xl:text-base leading-none">{cell.symbol}</span>
             </div>
-            <span className="font-medium text-[10px] leading-none truncate mb-1">{cell.name}</span>
-            <ul className="space-y-0.5 text-[9px] opacity-95">
+            <span className="font-medium leading-none truncate mb-1">{cell.name}</span>
+            <ul className="space-y-0.5 text-[9px] xl:text-[10px] 2xl:text-[11px] opacity-95">
               {cell.properties.slice(0, 2).map((prop, i) => (
                 <li key={i} className="truncate">{prop}</li>
               ))}
             </ul>
           </>
         ) : (
-          <ul className="space-y-0.5 text-[9px] opacity-95">
+          <ul className="space-y-0.5 text-[9px] xl:text-[10px] 2xl:text-[11px] opacity-95">
             {cell.properties.slice(0, 5).map((prop, i) => (
               <li
                 key={i}

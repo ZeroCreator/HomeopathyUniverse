@@ -40,13 +40,7 @@ export function PeriodicTable({ mode, onCellSelect }: PeriodicTableProps) {
     <>
       <HoverPreview cell={hoveredCell} />
       <div className="overflow-x-auto pb-4 -mx-4 px-4">
-        <div
-          className="grid gap-1 min-w-[1400px]"
-          style={{
-            gridTemplateColumns: '132px repeat(18, minmax(70px, 1fr))',
-            gridTemplateRows: 'auto repeat(9, 78px)',
-          }}
-        >
+        <div className="grid gap-1 xl:gap-1.5 2xl:gap-2 periodic-grid">
           {/* Top-left corner */}
           <div className="sticky left-0 z-10 bg-[#f8f7f4] flex flex-col justify-center px-2 text-[10px] font-medium leading-tight text-gray-600">
             <span>Дни творения</span>
@@ -95,7 +89,7 @@ export function PeriodicTable({ mode, onCellSelect }: PeriodicTableProps) {
                           onMouseLeave={() => setHoveredCell(null)}
                         />
                       ) : (
-                        <div className="h-full rounded" />
+                        <div className="h-full rounded aspect-[70/78]" />
                       )}
                     </div>
                   );

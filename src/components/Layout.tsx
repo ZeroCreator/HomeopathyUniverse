@@ -8,7 +8,7 @@ export function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen bg-[#f8f7f4] text-gray-900">
       <header className="bg-white border-b border-[#d4d0c8] sticky top-0 z-30">
-        <div className="max-w-[1600px] mx-auto px-4 py-4">
+        <div className="max-w-[1920px] mx-auto px-4 py-4">
           <div className="flex justify-between items-center gap-4">
             <img
               src="/logo.png"
@@ -24,11 +24,11 @@ export function Layout({ children }: LayoutProps) {
           </p>
         </div>
       </header>
-      <main className="max-w-[1600px] mx-auto px-4 py-6">
+      <main className="max-w-[1920px] mx-auto px-4 py-6">
         {children}
       </main>
       <footer className="border-t border-[#d4d0c8] bg-white mt-8">
-        <div className="max-w-[1600px] mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-gray-500">
+        <div className="max-w-[1920px] mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-gray-500">
           <p>
             spacehom.ru ·{" "}
             <a
