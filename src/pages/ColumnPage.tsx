@@ -11,7 +11,30 @@ export function ColumnPage() {
     return <Navigate to="/" replace />;
   }
 
-  const imageSrc = column.id === 1 ? '/1.png' : column.id === 2 ? '/2.png' : null;
+  // Добавляй сюда пути к картинкам для каждой колонки.
+  // Файлы должны лежать в папке public/.
+  const COLUMN_IMAGES: Record<number, string> = {
+    1: '/1.png',
+    2: '/2.png',
+    3: '/3.png',
+    4: '/4.png',
+    5: '/5.png',
+    6: '/6.png',
+    7: '/7.png',
+    8: '/8.png',
+    9: '/9.png',
+    10: '/10.jpg',
+    11: '/11.png',
+    12: '/12.png',
+    13: '/13.png',
+    14: '/14.png',
+    15: '/15.png',
+    16: '/16.jpg',
+    17: '/17.png',
+    18: '/18.jpg',
+  };
+
+  const imageSrc = COLUMN_IMAGES[column.id] || null;
 
   return (
     <div className="max-w-2xl mx-auto">

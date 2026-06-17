@@ -453,10 +453,8 @@
       "name": null,
       "atomicMass": null,
       "category": null,
-      "text": [
-      ],
-      "properties": [
-      ],
+      "text": [],
+      "properties": [],
       "plants": [],
       "animals": []
     },
@@ -468,10 +466,8 @@
       "name": null,
       "atomicMass": null,
       "category": null,
-      "text": [
-      ],
-      "properties": [
-      ],
+      "text": [],
+      "properties": [],
       "plants": [],
       "animals": []
     },
@@ -483,10 +479,8 @@
       "name": null,
       "atomicMass": null,
       "category": null,
-      "text": [
-      ],
-      "properties": [
-      ],
+      "text": [],
+      "properties": [],
       "plants": [],
       "animals": []
     },
@@ -555,8 +549,12 @@
         "Я есть, но",
         "не в группе"
       ],
-      "plants": ["Грибы"],
-      "animals": ["Вирусы"]
+      "plants": [
+        "Грибы"
+      ],
+      "animals": [
+        "Вирусы"
+      ]
     },
     {
       "period": 3,
@@ -566,10 +564,8 @@
       "name": null,
       "atomicMass": null,
       "category": null,
-      "text": [
-      ],
-      "properties": [
-      ],
+      "text": [],
+      "properties": [],
       "plants": [],
       "animals": []
     },
@@ -581,10 +577,8 @@
       "name": null,
       "atomicMass": null,
       "category": null,
-      "text": [
-      ],
-      "properties": [
-      ],
+      "text": [],
+      "properties": [],
       "plants": [],
       "animals": []
     },
@@ -596,10 +590,8 @@
       "name": null,
       "atomicMass": null,
       "category": null,
-      "text": [
-      ],
-      "properties": [
-      ],
+      "text": [],
+      "properties": [],
       "plants": [],
       "animals": []
     },
@@ -785,7 +777,9 @@
         "Пластичный"
       ],
       "plants": [],
-      "animals": ["Моллюски"]
+      "animals": [
+        "Моллюски"
+      ]
     },
     {
       "period": 5,
@@ -859,7 +853,9 @@
         "Сотворчество"
       ],
       "plants": [],
-      "animals": ["Птицы"]
+      "animals": [
+        "Птицы"
+      ]
     },
     {
       "period": 5,
@@ -934,25 +930,6 @@
     },
     {
       "period": 6,
-      "column": 3,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": "Лантаноиды",
-      "atomicMass": null,
-      "category": "lanthanoid",
-      "text": [
-        "57-71",
-        "Лантаноиды"
-      ],
-      "properties": [
-        "57-71",
-        "Лантаноиды"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 6,
       "column": 4,
       "atomicNumber": 72,
       "symbol": "Hf",
@@ -970,7 +947,9 @@
         "руководителя"
       ],
       "plants": [],
-      "animals": ["Грызуны"]
+      "animals": [
+        "Грызуны"
+      ]
     },
     {
       "period": 6,
@@ -991,7 +970,9 @@
         "ли руководить"
       ],
       "plants": [],
-      "animals": ["Змеи"]
+      "animals": [
+        "Змеи"
+      ]
     },
     {
       "period": 6,
@@ -1185,7 +1166,7 @@
       "animals": []
     },
     {
-      "period": "6a",
+      "period": 6,
       "column": 3,
       "atomicNumber": 57,
       "symbol": "La",
@@ -1208,7 +1189,7 @@
     },
     {
       "period": "6a",
-      "column": 4,
+      "column": 3,
       "atomicNumber": 58,
       "symbol": "Ce",
       "name": "Церий",
@@ -1231,7 +1212,7 @@
     },
     {
       "period": "6a",
-      "column": 5,
+      "column": 4,
       "atomicNumber": 59,
       "symbol": "Pr",
       "name": "Празеодим",
@@ -1254,7 +1235,7 @@
     },
     {
       "period": "6a",
-      "column": 6,
+      "column": 5,
       "atomicNumber": 60,
       "symbol": "Nd",
       "name": "Неодим",
@@ -1324,7 +1305,7 @@
       "animals": []
     },
     {
-      "period": "7a",
+      "period": 7,
       "column": 3,
       "atomicNumber": 89,
       "symbol": "Ac",
@@ -1349,7 +1330,7 @@
     },
     {
       "period": "7a",
-      "column": 4,
+      "column": 3,
       "atomicNumber": 90,
       "symbol": "Th",
       "name": "Торий",
@@ -1371,7 +1352,7 @@
     },
     {
       "period": "7a",
-      "column": 5,
+      "column": 4,
       "atomicNumber": 91,
       "symbol": "Pa",
       "name": "Протактиний",
@@ -1393,7 +1374,7 @@
     },
     {
       "period": "7a",
-      "column": 6,
+      "column": 5,
       "atomicNumber": 92,
       "symbol": "U",
       "name": "Уран",
@@ -2468,7 +2449,7 @@
     },
     {
       "period": "6a",
-      "column": 7,
+      "column": 6,
       "atomicNumber": 61,
       "symbol": "Pm",
       "name": "Прометий",
@@ -2490,7 +2471,7 @@
     },
     {
       "period": "6a",
-      "column": 8,
+      "column": 7,
       "atomicNumber": 62,
       "symbol": "Sm",
       "name": "Самарий",
@@ -2510,7 +2491,7 @@
     },
     {
       "period": "6a",
-      "column": 9,
+      "column": 8,
       "atomicNumber": 63,
       "symbol": "Eu",
       "name": "Европий",
@@ -2532,7 +2513,7 @@
     },
     {
       "period": "6a",
-      "column": 10,
+      "column": 9,
       "atomicNumber": 64,
       "symbol": "Gd",
       "name": "Гадолиний",
@@ -2555,7 +2536,7 @@
     },
     {
       "period": "6a",
-      "column": 11,
+      "column": 10,
       "atomicNumber": 65,
       "symbol": "Tb",
       "name": "Тербий",
@@ -2577,7 +2558,7 @@
     },
     {
       "period": "6a",
-      "column": 12,
+      "column": 11,
       "atomicNumber": 66,
       "symbol": "Dy",
       "name": "Диспрозий",
@@ -2599,7 +2580,7 @@
     },
     {
       "period": "7a",
-      "column": 7,
+      "column": 6,
       "atomicNumber": 93,
       "symbol": "Np",
       "name": "Нептуний",
@@ -2623,7 +2604,7 @@
     },
     {
       "period": "7a",
-      "column": 8,
+      "column": 7,
       "atomicNumber": 94,
       "symbol": "Pu",
       "name": "Плутоний",
@@ -2647,7 +2628,7 @@
     },
     {
       "period": "7a",
-      "column": 9,
+      "column": 8,
       "atomicNumber": 95,
       "symbol": "Am",
       "name": "Америций",
@@ -2672,7 +2653,7 @@
     },
     {
       "period": "7a",
-      "column": 10,
+      "column": 9,
       "atomicNumber": 96,
       "symbol": "Cm",
       "name": "Кюрий",
@@ -2696,7 +2677,7 @@
     },
     {
       "period": "7a",
-      "column": 11,
+      "column": 10,
       "atomicNumber": 97,
       "symbol": "Bk",
       "name": "Берклий",
@@ -2720,7 +2701,7 @@
     },
     {
       "period": "7a",
-      "column": 12,
+      "column": 11,
       "atomicNumber": 98,
       "symbol": "Cf",
       "name": "Калифорний",
@@ -3767,7 +3748,7 @@
     },
     {
       "period": "6a",
-      "column": 13,
+      "column": 12,
       "atomicNumber": 67,
       "symbol": "Ho",
       "name": "Гольмий",
@@ -3789,7 +3770,7 @@
     },
     {
       "period": "6a",
-      "column": 14,
+      "column": 13,
       "atomicNumber": 68,
       "symbol": "Er",
       "name": "Эрбий",
@@ -3811,7 +3792,7 @@
     },
     {
       "period": "6a",
-      "column": 15,
+      "column": 14,
       "atomicNumber": 69,
       "symbol": "Tm",
       "name": "Тулий",
@@ -3833,7 +3814,7 @@
     },
     {
       "period": "6a",
-      "column": 16,
+      "column": 15,
       "atomicNumber": 70,
       "symbol": "Yb",
       "name": "Иттербий",
@@ -3855,7 +3836,7 @@
     },
     {
       "period": "6a",
-      "column": 17,
+      "column": 16,
       "atomicNumber": 71,
       "symbol": "Lu",
       "name": "Лютеций",
@@ -3902,7 +3883,7 @@
     },
     {
       "period": "7a",
-      "column": 13,
+      "column": 12,
       "atomicNumber": 99,
       "symbol": "Es",
       "name": "Эйнштейний",
@@ -3927,7 +3908,7 @@
     },
     {
       "period": "7a",
-      "column": 14,
+      "column": 13,
       "atomicNumber": 100,
       "symbol": "Fm",
       "name": "Фермий",
@@ -3951,7 +3932,7 @@
     },
     {
       "period": "7a",
-      "column": 15,
+      "column": 14,
       "atomicNumber": 101,
       "symbol": "Md",
       "name": "Менделевий",
@@ -3977,7 +3958,7 @@
     },
     {
       "period": "7a",
-      "column": 16,
+      "column": 15,
       "atomicNumber": 102,
       "symbol": "No",
       "name": "Нобелий",
@@ -4001,7 +3982,7 @@
     },
     {
       "period": "7a",
-      "column": 17,
+      "column": 16,
       "atomicNumber": 103,
       "symbol": "Lr",
       "name": "Лоуренсий",
@@ -4049,25 +4030,6 @@
       ],
       "plants": [],
       "animals": []
-    },
-    {
-      "period": 7,
-      "column": 3,
-      "text": [
-        "89-103",
-        "Актиноиды"
-      ],
-      "properties": [
-        "89-103",
-        "Актиноиды"
-      ],
-      "plants": [],
-      "animals": [],
-      "symbol": null,
-      "name": "Актиноиды",
-      "atomicNumber": null,
-      "atomicMass": null,
-      "category": "actinoid"
     }
   ]
 }

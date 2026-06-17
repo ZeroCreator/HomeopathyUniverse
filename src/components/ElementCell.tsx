@@ -86,15 +86,8 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
               <span className="font-medium leading-none truncate w-full mt-0.5">{cell.name}</span>
             </div>
           </>
-        ) : cell.properties.length > 0 ? (
-          <div className="flex-1 flex flex-col items-center justify-center text-center">
-            <span className="text-sm xl:text-base 2xl:text-lg font-bold leading-none">{cell.properties[0]}</span>
-            {cell.properties[1] && (
-              <span className="text-[9px] xl:text-[10px] 2xl:text-[11px] font-bold leading-tight mt-0.5">{cell.properties[1]}</span>
-            )}
-          </div>
         ) : (
-          <span className="opacity-60 m-auto">—</span>
+          <div className="h-full rounded aspect-[70/78]" />
         )}
       </div>
     );
