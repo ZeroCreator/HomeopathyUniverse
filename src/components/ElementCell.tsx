@@ -83,7 +83,7 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
             </div>
             <div className="flex-1 flex flex-col items-center justify-center text-center">
               <span className="text-lg xl:text-xl 2xl:text-2xl font-bold leading-none">{cell.symbol}</span>
-              <span className="font-medium leading-none truncate w-full mt-0.5">{cell.name}</span>
+              <span className="font-medium leading-tight whitespace-normal break-words w-full mt-0.5">{cell.name}</span>
             </div>
           </>
         ) : (
@@ -99,7 +99,7 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
         {items.length > 0 ? (
           <ul className="space-y-0.5 opacity-95">
             {items.slice(0, 5).map((item, i) => (
-              <li key={i} className="truncate">{item}</li>
+              <li key={i} className="whitespace-normal break-words leading-tight">{item}</li>
             ))}
           </ul>
         ) : (
@@ -116,7 +116,7 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
         {items.length > 0 ? (
           <ul className="space-y-0.5 opacity-95">
             {items.slice(0, 5).map((item, i) => (
-              <li key={i} className="truncate">{item}</li>
+              <li key={i} className="whitespace-normal break-words leading-tight">{item}</li>
             ))}
           </ul>
         ) : (
@@ -134,10 +134,10 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
               <span className="text-[9px] xl:text-[10px] 2xl:text-[11px] opacity-80 leading-none">{cell.atomicNumber ?? ''}</span>
               <span className="font-bold text-xs xl:text-sm 2xl:text-base leading-none">{cell.symbol}</span>
             </div>
-            <span className="font-medium leading-none truncate mb-1">{cell.name}</span>
+            <span className="font-medium leading-tight whitespace-normal break-words mb-1">{cell.name}</span>
             <ul className="space-y-0.5 text-[9px] xl:text-[10px] 2xl:text-[11px] opacity-95">
               {cell.properties.slice(0, 2).map((prop, i) => (
-                <li key={i} className="truncate">{prop}</li>
+                <li key={i} className="whitespace-normal break-words leading-tight">{prop}</li>
               ))}
             </ul>
           </>
@@ -146,7 +146,7 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
             {cell.properties.slice(0, 5).map((prop, i) => (
               <li
                 key={i}
-                className={i > 0 && (cell.category === 'lanthanoid' || cell.category === 'actinoid') ? 'font-bold truncate' : 'truncate'}
+                className={i > 0 && (cell.category === 'lanthanoid' || cell.category === 'actinoid') ? 'font-bold whitespace-normal break-words leading-tight' : 'whitespace-normal break-words leading-tight'}
               >
                 {prop}
               </li>
