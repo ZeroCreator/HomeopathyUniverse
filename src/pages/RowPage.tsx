@@ -1,6 +1,8 @@
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { getRow } from '../data/tableData';
+import { getRowDetail } from '../data/detailData';
+import { ContentBlocks } from '../components/ContentBlocks';
 import type { PeriodId } from '../types';
 
 function parsePeriod(period: string): PeriodId | undefined {
@@ -14,10 +16,13 @@ export function RowPage() {
   const { period } = useParams<{ period: string }>();
   const periodId = period ? parsePeriod(period) : undefined;
   const row = periodId ? getRow(periodId) : undefined;
+  const detail = periodId ? getRowDetail(periodId) : undefined;
 
   if (!row) {
     return <Navigate to="/" replace />;
   }
+
+  const imageSrc = detail?.image ?? null;
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -33,6 +38,14 @@ export function RowPage() {
         {row.subtitle && <p className="text-purple-800 italic font-semibold mt-1">{row.subtitle}</p>}
         <p className="text-gray-500 mt-1">Ряд {row.id}</p>
 
+        {imageSrc && (
+          <img
+            src={imageSrc}
+            alt={row.title}
+            className="mt-4 w-full max-h-80 object-contain rounded-lg border border-[#d4d0c8]"
+          />
+        )}
+
         <div className="mt-4 space-y-2 text-sm text-gray-700">
           {row.creationDay && (
             <p><span className="font-semibold">День творения:</span> {row.creationDay}</p>
@@ -42,6 +55,12 @@ export function RowPage() {
           )}
           {row.description && <p>{row.description}</p>}
         </div>
+
+        {detail?.blocks && detail.blocks.length > 0 && (
+          <div className="mt-4 pt-4 border-t border-[#d4d0c8]">
+            <ContentBlocks blocks={detail.blocks} />
+          </div>
+        )}
       </div>
     </div>
   );

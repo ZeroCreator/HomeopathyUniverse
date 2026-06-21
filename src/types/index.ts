@@ -51,3 +51,24 @@ export interface TableData {
 }
 
 export type ViewMode = 'all' | 'elements' | 'plants' | 'animals';
+
+export type ContentBlock =
+  | { type: 'heading'; content: string }
+  | { type: 'text'; content: string }
+  | { type: 'image'; src: string; caption?: string; alt?: string }
+  | { type: 'list'; items: string[] };
+
+export interface ColumnDetail {
+  image?: string;
+  blocks?: ContentBlock[];
+}
+
+export interface RowDetail {
+  image?: string;
+  blocks?: ContentBlock[];
+}
+
+export interface DetailData {
+  columns: Record<string, ColumnDetail>;
+  rows: Record<string, RowDetail>;
+}
