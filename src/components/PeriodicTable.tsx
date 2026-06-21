@@ -43,7 +43,6 @@ export function PeriodicTable({ mode, onCellSelect }: PeriodicTableProps) {
         <div className="grid gap-1 xl:gap-1.5 2xl:gap-2 periodic-grid">
           {/* Top-left corner */}
           <div className="sticky left-0 z-10 bg-[#f8f7f4] flex flex-col justify-center px-2 text-[10px] font-medium leading-tight text-gray-600">
-            <span>Дни творения</span>
             <span>Ряд таблицы</span>
             <span>Миазм</span>
           </div>

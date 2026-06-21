@@ -64,11 +64,23 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
     return <div className="h-full rounded aspect-[70/78]" />;
   }
 
+  const isSeriesPlaceholder =
+    !cell.symbol &&
+    (cell.category === 'lanthanoid' || cell.category === 'actinoid') &&
+    cell.properties.length >= 2;
+
   const baseClasses = [
     'relative rounded p-1.5 xl:p-2 element-cell-base leading-tight cursor-pointer transition-transform hover:scale-[1.02] hover:shadow-md overflow-hidden h-full flex flex-col border border-black/5 aspect-[70/78]',
   ].join(' ');
 
   const titleText = cell.properties.join('\n');
+
+  const placeholderContent = (
+    <div className="flex-1 flex flex-col items-center justify-center text-center">
+      <span className="text-base xl:text-lg 2xl:text-xl font-bold leading-none">{cell.properties[0]}</span>
+      <span className="font-medium leading-tight whitespace-normal break-words w-full mt-0.5">{cell.properties[1]}</span>
+    </div>
+  );
 
   let content: React.ReactNode;
 
@@ -86,6 +98,8 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
               <span className="font-medium leading-tight whitespace-normal break-words w-full mt-0.5">{cell.name}</span>
             </div>
           </>
+        ) : isSeriesPlaceholder ? (
+          placeholderContent
         ) : (
           <div className="h-full rounded aspect-[70/78]" />
         )}
@@ -96,15 +110,15 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
     content = (
       <div className="h-full flex flex-col">
         {cell.symbol && <span className="font-bold text-xs xl:text-sm 2xl:text-base leading-none mb-1">{cell.symbol}</span>}
-        {items.length > 0 ? (
+        {isSeriesPlaceholder ? (
+          placeholderContent
+        ) : items.length > 0 ? (
           <ul className="space-y-0.5 opacity-95">
             {items.slice(0, 5).map((item, i) => (
               <li key={i} className="whitespace-normal break-words leading-tight">{item}</li>
             ))}
           </ul>
-        ) : (
-          <span className="opacity-70 mt-auto">—</span>
-        )}
+        ) : null}
 
       </div>
     );
@@ -113,15 +127,15 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
     content = (
       <div className="h-full flex flex-col">
         {cell.symbol && <span className="font-bold text-xs xl:text-sm 2xl:text-base leading-none mb-1">{cell.symbol}</span>}
-        {items.length > 0 ? (
+        {isSeriesPlaceholder ? (
+          placeholderContent
+        ) : items.length > 0 ? (
           <ul className="space-y-0.5 opacity-95">
             {items.slice(0, 5).map((item, i) => (
               <li key={i} className="whitespace-normal break-words leading-tight">{item}</li>
             ))}
           </ul>
-        ) : (
-          <span className="opacity-70 mt-auto">—</span>
-        )}
+        ) : null}
 
       </div>
     );
@@ -141,6 +155,8 @@ export function ElementCell({ cell, mode, onClick, onMouseEnter, onMouseLeave }:
               ))}
             </ul>
           </>
+        ) : isSeriesPlaceholder ? (
+          placeholderContent
         ) : (
           <ul className="space-y-0.5 text-[9px] xl:text-[10px] 2xl:text-[11px] opacity-95">
             {cell.properties.slice(0, 5).map((prop, i) => (

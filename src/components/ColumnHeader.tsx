@@ -17,7 +17,7 @@ export function ColumnHeader({ column }: ColumnHeaderProps) {
       <button
         ref={anchorRef}
         onClick={() => setExpanded(!expanded)}
-        className="col-header-text font-semibold text-gray-700 hover:text-purple-700 text-center flex flex-col items-center justify-start gap-0 leading-tight w-full h-full"
+        className="col-header-text font-semibold text-gray-700 hover:text-purple-700 hover:bg-purple-50 text-center flex flex-col items-center justify-start gap-0 leading-tight w-full h-full border border-[#d4d0c8] rounded bg-white cursor-pointer transition-colors"
       >
         {column.topTitle && (
           <span className="h-6 flex items-center justify-center whitespace-normal break-words w-full overflow-hidden">

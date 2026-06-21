@@ -17,7 +17,7 @@ export function RowHeader({ row }: RowHeaderProps) {
       <button
         ref={anchorRef}
         onClick={() => setExpanded(!expanded)}
-        className="flex-1 min-w-0 text-left row-header-text text-gray-700 hover:text-purple-700 leading-tight flex flex-col justify-center"
+        className="flex-1 min-w-0 text-left row-header-text text-gray-700 hover:text-purple-700 hover:bg-purple-50 leading-tight flex flex-col justify-center border border-[#d4d0c8] rounded bg-white px-2 cursor-pointer transition-colors"
       >
         {row.subtitle ? (
           <>

@@ -1,6 +1,7 @@
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { getCell, getColumn, getRow } from '../data/tableData';
+import { getPlantsByCell } from '../data/plantData';
 import type { PeriodId } from '../types';
 
 function parsePeriod(period: string): PeriodId | undefined {
@@ -19,6 +20,7 @@ export function ElementPage() {
   const cell = periodId && !isNaN(columnId) ? getCell(periodId, columnId) : undefined;
   const columnData = !isNaN(columnId) ? getColumn(columnId) : undefined;
   const rowData = periodId ? getRow(periodId) : undefined;
+  const plantList = periodId && !isNaN(columnId) ? getPlantsByCell(periodId, columnId) : [];
 
   if (!cell) {
     return <Navigate to="/" replace />;
@@ -59,12 +61,15 @@ export function ElementPage() {
           )}
         </div>
 
-        {cell.plants.length > 0 && (
+        {(cell.plants.length > 0 || plantList.length > 0) && (
           <div className="mt-6">
             <h2 className="font-semibold text-gray-900 mb-2">Растения</h2>
             <ul className="space-y-1 text-sm text-gray-700">
               {cell.plants.map((p, i) => (
-                <li key={i}>{p}</li>
+                <li key={`existing-${i}`}>{p}</li>
+              ))}
+              {plantList.map((p, i) => (
+                <li key={`plant-${i}`} className="pl-3 border-l-2 border-green-200">{p}</li>
               ))}
             </ul>
           </div>

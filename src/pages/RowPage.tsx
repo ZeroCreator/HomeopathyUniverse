@@ -2,6 +2,7 @@ import { useParams, Navigate, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { getRow } from '../data/tableData';
 import { getRowDetail } from '../data/detailData';
+import { getPlantsByPeriod } from '../data/plantData';
 import { ContentBlocks } from '../components/ContentBlocks';
 import type { PeriodId } from '../types';
 
@@ -17,6 +18,7 @@ export function RowPage() {
   const periodId = period ? parsePeriod(period) : undefined;
   const row = periodId ? getRow(periodId) : undefined;
   const detail = periodId ? getRowDetail(periodId) : undefined;
+  const plantList = periodId ? getPlantsByPeriod(periodId) : [];
 
   if (!row) {
     return <Navigate to="/" replace />;
@@ -59,6 +61,17 @@ export function RowPage() {
         {detail?.blocks && detail.blocks.length > 0 && (
           <div className="mt-4 pt-4 border-t border-[#d4d0c8]">
             <ContentBlocks blocks={detail.blocks} />
+          </div>
+        )}
+
+        {plantList.length > 0 && (
+          <div className="mt-6 pt-4 border-t border-[#d4d0c8]">
+            <h2 className="text-lg font-semibold text-gray-900 mb-3">Растения</h2>
+            <ul className="space-y-1 text-sm text-gray-700">
+              {plantList.map((plant, index) => (
+                <li key={index} className="pl-3 border-l-2 border-green-200">{plant}</li>
+              ))}
+            </ul>
           </div>
         )}
       </div>
