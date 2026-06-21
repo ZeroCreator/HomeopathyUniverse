@@ -32,7 +32,7 @@ export interface Row {
 export interface Cell {
   period: PeriodId;
   column: number;
-  atomicNumber: number | null;
+  atomicNumber: number | string | null;
   symbol: string | null;
   name: string | null;
   atomicMass: string | null;

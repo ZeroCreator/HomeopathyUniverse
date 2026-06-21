@@ -47,6 +47,18 @@ button {
   grid-template-rows: auto repeat(9, auto);
 }
 
+@media (min-width: 1280px) {
+  .periodic-grid {
+    grid-template-columns: 160px repeat(18, minmax(70px, 1fr));
+  }
+}
+
+@media (min-width: 1536px) {
+  .periodic-grid {
+    grid-template-columns: 180px repeat(18, minmax(70px, 1fr));
+  }
+}
+
 /* Element cell base font size */
 .element-cell-base {
   font-size: 10px;

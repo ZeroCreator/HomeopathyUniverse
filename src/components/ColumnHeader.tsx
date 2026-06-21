@@ -17,20 +17,23 @@ export function ColumnHeader({ column }: ColumnHeaderProps) {
       <button
         ref={anchorRef}
         onClick={() => setExpanded(!expanded)}
-        className="col-header-text font-semibold text-gray-700 hover:text-purple-700 hover:bg-purple-50 text-center flex flex-col items-center justify-start gap-0 leading-tight w-full h-full border border-[#d4d0c8] rounded bg-white cursor-pointer transition-colors"
+        className="col-header-text flex-1 font-semibold text-gray-700 hover:text-purple-700 hover:bg-purple-50 text-center flex flex-col items-center justify-start gap-0 leading-tight w-full border border-[#d4d0c8] rounded bg-white cursor-pointer transition-colors p-1"
       >
         {column.topTitle && (
-          <span className="h-6 flex items-center justify-center whitespace-normal break-words w-full overflow-hidden">
+          <span className="flex-1 flex items-center justify-center whitespace-normal break-words w-full overflow-hidden">
             {column.topTitle}
           </span>
         )}
-        <span className="h-10 flex items-center justify-center whitespace-normal break-words w-full overflow-hidden">
+        <span className="flex-[2] flex items-center justify-center whitespace-normal break-words w-full overflow-hidden">
           {column.title}
         </span>
-        <span className="h-6 flex items-center justify-center bg-white border border-[#d4d0c8] rounded px-1 text-[11px] xl:text-[13px] 2xl:text-[14px] font-bold text-gray-600 whitespace-normal break-words w-full overflow-hidden">
-          {column.id}
-        </span>
       </button>
+      <div
+        className="mt-1 shrink-0 h-6 bg-white border border-[#d4d0c8] rounded flex items-center justify-center text-[11px] xl:text-[13px] 2xl:text-[14px] font-bold text-gray-600"
+        title={`Колонка ${column.id}`}
+      >
+        {column.id}
+      </div>
       {expanded && (
         <DropdownPanel
           anchor={anchorRef.current}

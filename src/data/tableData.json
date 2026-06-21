@@ -376,1026 +376,6 @@
       "animals": []
     },
     {
-      "period": 2,
-      "column": 1,
-      "atomicNumber": 3,
-      "symbol": "Li",
-      "name": "Литий",
-      "atomicMass": "6.94",
-      "category": "alkali",
-      "text": [
-        "Любовь без какой-то мысли",
-        "Начало познания мира",
-        "Корректор",
-        "Биполярное расстройство",
-        "Куб"
-      ],
-      "properties": [
-        "Любовь без",
-        "какой-то мысли",
-        "Начало познания",
-        "мира"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 2,
-      "atomicNumber": 4,
-      "symbol": "Be",
-      "name": "Бериллий",
-      "atomicMass": "9.0122",
-      "category": "alkaline",
-      "text": [
-        "Сверхновая звезда",
-        "Твёрдый",
-        "Хрупкий",
-        "Высокая чувствительность",
-        "Робкий",
-        "Страх толпы",
-        "Изумруд"
-      ],
-      "properties": [
-        "Твёрдый",
-        "Хрупкий",
-        "Робкий"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 3,
-      "atomicNumber": 5,
-      "symbol": "B",
-      "name": "Бор",
-      "atomicMass": "10.81",
-      "category": "metalloid",
-      "text": [
-        "Нет личности",
-        "Не существую",
-        "Необходимо к кому-то присоединиться",
-        "Старомодный"
-      ],
-      "properties": [
-        "Нет личности",
-        "Не существую"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 4,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [],
-      "properties": [],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 5,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [],
-      "properties": [],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 6,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [],
-      "properties": [],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 3,
-      "column": 1,
-      "atomicNumber": 11,
-      "symbol": "Na",
-      "name": "Натрий",
-      "atomicMass": "22.990",
-      "category": "alkali",
-      "text": [
-        "Общения нет",
-        "Человек разговаривает сам с собой"
-      ],
-      "properties": [
-        "Общения нет"
-      ],
-      "plants": [],
-      "animals": [
-        "Вирусы",
-        "Бактерии"
-      ]
-    },
-    {
-      "period": 3,
-      "column": 2,
-      "atomicNumber": 12,
-      "symbol": "Mg",
-      "name": "Магний",
-      "atomicMass": "24.305",
-      "category": "alkaline",
-      "text": [
-        "Неуверенный в отношениях"
-      ],
-      "properties": [
-        "Неуверенный в",
-        "отношениях"
-      ],
-      "plants": [
-        "Плауновидные 3-422",
-        "Магнолииды 3-622",
-        "Аровидные 3-632"
-      ],
-      "animals": [
-        "Вирусы",
-        "Бактерии"
-      ]
-    },
-    {
-      "period": 3,
-      "column": 3,
-      "atomicNumber": 13,
-      "symbol": "Al",
-      "name": "Алюминий",
-      "atomicMass": "26.982",
-      "category": "poor",
-      "text": [
-        "Мёртвый металл",
-        "Я есть, но не в группе",
-        "Символы",
-        "Смыслы"
-      ],
-      "properties": [
-        "Мёртвый металл",
-        "Я есть, но",
-        "не в группе"
-      ],
-      "plants": [
-        "Грибы"
-      ],
-      "animals": [
-        "Вирусы"
-      ]
-    },
-    {
-      "period": 3,
-      "column": 4,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [],
-      "properties": [],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 3,
-      "column": 5,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [],
-      "properties": [],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 3,
-      "column": 6,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [],
-      "properties": [],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 1,
-      "atomicNumber": 19,
-      "symbol": "K",
-      "name": "Калий",
-      "atomicMass": "39.098",
-      "category": "alkali",
-      "text": [
-        "Работа в проекте",
-        "Перекладывание вещей",
-        "Суетология",
-        "Маленький принц"
-      ],
-      "properties": [
-        "Работа в проекте",
-        "Суетология"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 2,
-      "atomicNumber": 20,
-      "symbol": "Ca",
-      "name": "Кальций",
-      "atomicMass": "40.078",
-      "category": "alkaline",
-      "text": [
-        "Известняк, гипс, мрамор, известь",
-        "Восстановитель",
-        "Высокая химическая активность",
-        "Скелет",
-        "Зубы"
-      ],
-      "properties": [
-        "Восстановитель",
-        "Скелет",
-        "Зубы"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 3,
-      "atomicNumber": 21,
-      "symbol": "Sc",
-      "name": "Скандий",
-      "atomicMass": "44.956",
-      "category": "transition",
-      "text": [
-        "Мёртвый металл",
-        "Желает о себе заявить",
-        "Работа",
-        "Смена работы",
-        "Скандировать",
-        "Парторг"
-      ],
-      "properties": [
-        "Желает о себе",
-        "Заявить",
-        "Работа"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 4,
-      "atomicNumber": 22,
-      "symbol": "Ti",
-      "name": "Титан",
-      "atomicMass": "47.867",
-      "category": "transition",
-      "text": [
-        "Сращивается с костью",
-        "Плотные отношения",
-        "Нет личного проекта",
-        "Штифт коронки"
-      ],
-      "properties": [
-        "Сращивается с",
-        "костью"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 5,
-      "atomicNumber": 23,
-      "symbol": "V",
-      "name": "Ванадий",
-      "atomicMass": "50.942",
-      "category": "transition",
-      "text": [
-        "Придаёт прочность",
-        "Начало отношений с внешним миром",
-        "Анорексия / булемия",
-        "Медали и жетоны"
-      ],
-      "properties": [
-        "Придаёт прочность",
-        "Начало отношений",
-        "с внешним миром"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 6,
-      "atomicNumber": 24,
-      "symbol": "Cr",
-      "name": "Хром",
-      "atomicMass": "51.996",
-      "category": "transition",
-      "text": [
-        "Биогенный",
-        "Рак",
-        "Твердый, хрупкий",
-        "Прямолинейный",
-        "Взлет / падение",
-        "Ощущение неудачи",
-        "Эрин Брокович"
-      ],
-      "properties": [
-        "Биогенный",
-        "Твердый",
-        "хрупкий"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 5,
-      "column": 1,
-      "atomicNumber": 37,
-      "symbol": "Rb",
-      "name": "Рубидий",
-      "atomicMass": "85.468",
-      "category": "alkali",
-      "text": [
-        "Творчество в проекте",
-        "Мечта",
-        "Проба",
-        "Фантазии",
-        "Галюцинации",
-        "Нет реализации"
-      ],
-      "properties": [
-        "Творчество в",
-        "проекте",
-        "Мечта"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 5,
-      "column": 2,
-      "atomicNumber": 38,
-      "symbol": "Sr",
-      "name": "Стронций",
-      "atomicMass": "87.62",
-      "category": "alkaline",
-      "text": [
-        "Мягкий",
-        "Ковкий",
-        "Пластичный",
-        "Высокоактивный",
-        "Морозостойкий",
-        "Ян Вермеер"
-      ],
-      "properties": [
-        "Мягкий",
-        "Ковкий",
-        "Пластичный"
-      ],
-      "plants": [],
-      "animals": [
-        "Моллюски"
-      ]
-    },
-    {
-      "period": 5,
-      "column": 3,
-      "atomicNumber": 39,
-      "symbol": "Y",
-      "name": "Иттрий",
-      "atomicMass": "88.906",
-      "category": "transition",
-      "text": [
-        "Поиск идей",
-        "Эксклюзивность",
-        "Присосаться"
-      ],
-      "properties": [
-        "Поиск идей",
-        "Эксклюзивность",
-        "Присосаться"
-      ],
-      "plants": [],
-      "animals": [
-        "Кольчат.черви",
-        "Пиявки. Миноги",
-        "Актинии"
-      ]
-    },
-    {
-      "period": 5,
-      "column": 4,
-      "atomicNumber": 40,
-      "symbol": "Zr",
-      "name": "Цирконий",
-      "atomicMass": "91.224",
-      "category": "transition",
-      "text": [
-        "Начало творчества",
-        "Ворота",
-        "Мост",
-        "Зубные протезы",
-        "Челюсти"
-      ],
-      "properties": [
-        "Начало творчеств",
-        "Ворота",
-        "Мост"
-      ],
-      "plants": [],
-      "animals": [
-        "Акулы",
-        "Рыбы"
-      ]
-    },
-    {
-      "period": 5,
-      "column": 5,
-      "atomicNumber": 41,
-      "symbol": "Nb",
-      "name": "Ниобий",
-      "atomicMass": "92.906",
-      "category": "transition",
-      "text": [
-        "Жаропрочный",
-        "Сотворчество",
-        "Все хочет узнать",
-        "Широкое общение",
-        "Уязвимость",
-        "Ниоба"
-      ],
-      "properties": [
-        "Жаропрочный",
-        "Сотворчество"
-      ],
-      "plants": [],
-      "animals": [
-        "Птицы"
-      ]
-    },
-    {
-      "period": 5,
-      "column": 6,
-      "atomicNumber": 42,
-      "symbol": "Mo",
-      "name": "Молибден",
-      "atomicMass": "95.95",
-      "category": "transition",
-      "text": [
-        "Сотворчество",
-        "Дерзкий",
-        "Грубый",
-        "Странник",
-        "Тоска по дому",
-        "Борется"
-      ],
-      "properties": [
-        "Борется",
-        "Грубый",
-        "Странник"
-      ],
-      "plants": [],
-      "animals": [
-        "певчие птицы (Воробьинообразные)"
-      ]
-    },
-    {
-      "period": 6,
-      "column": 1,
-      "atomicNumber": 55,
-      "symbol": "Cs",
-      "name": "Цезий",
-      "atomicMass": "132.91",
-      "category": "alkali",
-      "text": [
-        "Управленец без реализации",
-        "Змей искуситель"
-      ],
-      "properties": [
-        "Управленец без",
-        "реализации"
-      ],
-      "plants": [],
-      "animals": [
-        "Змеи",
-        "Утконос",
-        "Ехидна"
-      ]
-    },
-    {
-      "period": 6,
-      "column": 2,
-      "atomicNumber": 56,
-      "symbol": "Ba",
-      "name": "Барий",
-      "atomicMass": "137.33",
-      "category": "alkaline",
-      "text": [
-        "Мягкий",
-        "Вязкий",
-        "Уменьшает агрессивность теплоносителей"
-      ],
-      "properties": [
-        "Мягкий",
-        "Вязкий"
-      ],
-      "plants": [],
-      "animals": [
-        "Сумчатые млекопитающие"
-      ]
-    },
-    {
-      "period": 6,
-      "column": 4,
-      "atomicNumber": 72,
-      "symbol": "Hf",
-      "name": "Гафний",
-      "atomicMass": "178.49",
-      "category": "transition",
-      "text": [
-        "Начинает карьеру руководителя",
-        "Тяжелый",
-        "Тугоплавкий",
-        "Инертный"
-      ],
-      "properties": [
-        "Начинает карьеру",
-        "руководителя"
-      ],
-      "plants": [],
-      "animals": [
-        "Грызуны"
-      ]
-    },
-    {
-      "period": 6,
-      "column": 5,
-      "atomicNumber": 73,
-      "symbol": "Ta",
-      "name": "Тантал",
-      "atomicMass": "180.95",
-      "category": "transition",
-      "text": [
-        "Сомнения, может ли руководить",
-        "Танталовы муки",
-        "Равновес",
-        "Нумизматика"
-      ],
-      "properties": [
-        "Сомнения, может",
-        "ли руководить"
-      ],
-      "plants": [],
-      "animals": [
-        "Змеи"
-      ]
-    },
-    {
-      "period": 6,
-      "column": 6,
-      "atomicNumber": 74,
-      "symbol": "W",
-      "name": "Вольфрам",
-      "atomicMass": "183.84",
-      "category": "transition",
-      "text": [
-        "Сияние",
-        "Хочет себя показать",
-        "Большие амбиции",
-        "Бросить вызов"
-      ],
-      "properties": [
-        "Бросить вызов",
-        "Большие амбиции"
-      ],
-      "plants": [],
-      "animals": [
-        "Гремучники",
-        "Собакообразные"
-      ]
-    },
-    {
-      "period": 7,
-      "column": 1,
-      "atomicNumber": 87,
-      "symbol": "Fr",
-      "name": "Франций",
-      "atomicMass": "(223)",
-      "category": "alkali",
-      "text": [
-        "Добро и зло в проекте",
-        "Галлюцинации на метафизические и мистические темы"
-      ],
-      "properties": [
-        "Добро и зло в",
-        "проекте"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 2,
-      "atomicNumber": 88,
-      "symbol": "Ra",
-      "name": "Радий",
-      "atomicMass": "(226)",
-      "category": "alkaline",
-      "text": [
-        "Луч",
-        "Тускнеет на воздухе",
-        "Ядовитый",
-        "Радиоактивный",
-        "Редкий",
-        "Скрытая угроза"
-      ],
-      "properties": [
-        "Ядовитый",
-        "Скрытая угроза"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 4,
-      "atomicNumber": 104,
-      "symbol": "Rf",
-      "name": "Резерфордий",
-      "atomicMass": "(267)",
-      "category": "transition",
-      "text": [
-        "Трансактиноид",
-        "Олимп жизни",
-        "Тайная власть",
-        "Манипуляции",
-        "Тело как цель",
-        "Гипертелесность"
-      ],
-      "properties": [
-        "Олимп жизни",
-        "Тайная власть"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 5,
-      "atomicNumber": 105,
-      "symbol": "Db",
-      "name": "Дубний",
-      "atomicMass": "(268)",
-      "category": "transition",
-      "text": [
-        "Получен на ускорителе",
-        "Тайная власть",
-        "Большой вес",
-        "Узкий круг лиц",
-        "Разборки"
-      ],
-      "properties": [
-        "Большой вес",
-        "Узкий круг лиц"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 6,
-      "atomicNumber": 106,
-      "symbol": "Sg",
-      "name": "Сиборгий",
-      "atomicMass": "(269)",
-      "category": "transition",
-      "text": [
-        "Большая тема власти",
-        "Без творчества",
-        "Большая гордыня",
-        "Тайна",
-        "Нет реализации"
-      ],
-      "properties": [
-        "Большая гордыня",
-        "Без творчества"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 1,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Мечта",
-        "Энергия",
-        "Внутреннее воодушевление",
-        "Желание",
-        "Образ",
-        "Прожектор",
-        "Луч",
-        "Пятна",
-        "Цвета",
-        "Набросок",
-        "Вектор"
-      ],
-      "properties": [
-        "Мечта",
-        "Энергия",
-        "Внутреннее",
-        "воодушевление"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 2,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Сакральный момент",
-        "Зародыш",
-        "Тишина",
-        "Темнота",
-        "Тепло",
-        "Вода",
-        "Уют",
-        "Комфорт",
-        "Полная безопасность",
-        "Ощущение зависимости"
-      ],
-      "properties": [
-        "Сакральный",
-        "момент",
-        "Зародыш"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 3,
-      "atomicNumber": 57,
-      "symbol": "La",
-      "name": "Лантан",
-      "atomicMass": "138.91",
-      "category": "lanthanoid",
-      "text": [
-        "Наиболее распространён",
-        "Скрытый",
-        "Отсутствует индивидуальность",
-        "Маска",
-        "Клоун"
-      ],
-      "properties": [
-        "Скрытый",
-        "Маска"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 4,
-      "atomicNumber": 58,
-      "symbol": "Ce",
-      "name": "Церий",
-      "atomicMass": "140.12",
-      "category": "lanthanoid",
-      "text": [
-        "Токсичен для рыб",
-        "Биоаккумуляция",
-        "Усиливает сплавы на разрыв",
-        "Страх нового",
-        "Кокон",
-        "Недооценка"
-      ],
-      "properties": [
-        "Кокон",
-        "Биоаккумуляция"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 5,
-      "atomicNumber": 59,
-      "symbol": "Pr",
-      "name": "Празеодим",
-      "atomicMass": "140.91",
-      "category": "lanthanoid",
-      "text": [
-        "Тонкая инженерная мысль",
-        "Робкий",
-        "Осмотрительный",
-        "Светло-зеленый",
-        "Близнец",
-        "Стекло"
-      ],
-      "properties": [
-        "Робкий",
-        "Осмотрительный"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 6,
-      "atomicNumber": 60,
-      "symbol": "Nd",
-      "name": "Неодим",
-      "atomicMass": "144.24",
-      "category": "lanthanoid",
-      "text": [
-        "Тонкая подстройка",
-        "Соработничество",
-        "Декларативное поведение",
-        "Магнетизм",
-        "Близнец",
-        "Броня"
-      ],
-      "properties": [
-        "Магнетизм",
-        "Близнец",
-        "Броня"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 1,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Проекция",
-        "Путь",
-        "Маршрут",
-        "Быть или не быть",
-        "Имею ли я право на жизнь?",
-        "Живу или не живу",
-        "Суицидальность"
-      ],
-      "properties": [
-        "Проекция",
-        "Маршрут"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 2,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Неведение",
-        "Безусловность",
-        "Герметичный процесс",
-        "Гравитация",
-        "Скафандр",
-        "Материализация"
-      ],
-      "properties": [
-        "Безусловность",
-        "Гравитация"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 3,
-      "atomicNumber": 89,
-      "symbol": "Ac",
-      "name": "Актиний",
-      "atomicMass": "(227)",
-      "category": "actinoid",
-      "text": [
-        "Нераспространён",
-        "Радиоактивный яд",
-        "Источник энергии",
-        "Жизнь = смерть"
-      ],
-      "properties": [
-        "Источник энергии",
-        "Жизнь = смерть"
-      ],
-      "plants": [],
-      "animals": [
-        "Вирусы",
-        "Грибы"
-      ]
-    },
-    {
-      "period": "7a",
-      "column": 4,
-      "atomicNumber": 90,
-      "symbol": "Th",
-      "name": "Торий",
-      "atomicMass": "232.04",
-      "category": "actinoid",
-      "text": [
-        "Присутствует в тканях растений и животных",
-        "Живой",
-        "Защитник",
-        "Умеренная власть",
-        "Разумное управление"
-      ],
-      "properties": [
-        "Защитник",
-        "Разумное управление"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 5,
-      "atomicNumber": 91,
-      "symbol": "Pa",
-      "name": "Протактиний",
-      "atomicMass": "231.04",
-      "category": "actinoid",
-      "text": [
-        "Творчество высокого уровня",
-        "Научные исследования",
-        "Почки",
-        "Печень",
-        "Кости"
-      ],
-      "properties": [
-        "Творчество высокого",
-        "уровня"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 6,
-      "atomicNumber": 92,
-      "symbol": "U",
-      "name": "Уран",
-      "atomicMass": "238.03",
-      "category": "actinoid",
-      "text": [
-        "Энергетика",
-        "Сотворчество",
-        "Нарастающая тема власти",
-        "Планета",
-        "Бог неба",
-        "Рак легких"
-      ],
-      "properties": [
-        "Планета",
-        "Сотворчество"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
       "period": 1,
       "column": 7,
       "atomicNumber": null,
@@ -1530,6 +510,251 @@
         "Духовые искания",
         "Творчество"
       ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 1,
+      "column": 13,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Женщина. Дети",
+        "Материнство. ЭК",
+        "Яйцо. Яйцеклетк",
+        "Ребенок с чудинко"
+      ],
+      "properties": [
+        "Женщина. Дети",
+        "Материнство. ЭК",
+        "Яйцо. Яйцеклетк",
+        "Ребенок с чудинко"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 1,
+      "column": 14,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Санитар обществ",
+        "Супермен. Стука",
+        "Сын судит отца",
+        "Крысолов. Гулливе"
+      ],
+      "properties": [
+        "Санитар обществ",
+        "Супермен. Стука",
+        "Сын судит отца",
+        "Крысолов. Гулливе"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 1,
+      "column": 15,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Не различает",
+        "добро и зло. 12",
+        "Скелет в шкафу",
+        "Бред величия"
+      ],
+      "properties": [
+        "Не различает",
+        "добро и зло. 12",
+        "Скелет в шкафу",
+        "Бред величия"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 1,
+      "column": 16,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Миссия. Сила дух",
+        "Мезальянс. Честь",
+        "Наука. Прогресс",
+        "Меценат. Нобель"
+      ],
+      "properties": [
+        "Миссия. Сила дух",
+        "Мезальянс. Честь",
+        "Наука. Прогресс",
+        "Меценат. Нобель"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 1,
+      "column": 17,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Принятие судьбы",
+        "Испытания. Потер",
+        "Не сломался. Уро",
+        "Привычка"
+      ],
+      "properties": [
+        "Принятие судьбы",
+        "Испытания. Потер",
+        "Не сломался. Уро",
+        "Привычка"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 1,
+      "column": 18,
+      "atomicNumber": 2,
+      "symbol": "He",
+      "name": "Гелий",
+      "atomicMass": "4.0026",
+      "category": "noble",
+      "text": [
+        "Инертный газ",
+        "Солнце",
+        "Сверхтекучесть"
+      ],
+      "properties": [
+        "Инертный газ",
+        "Солнце",
+        "Сверхтекучесть"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 1,
+      "atomicNumber": 3,
+      "symbol": "Li",
+      "name": "Литий",
+      "atomicMass": "6.94",
+      "category": "alkali",
+      "text": [
+        "Любовь без какой-то мысли",
+        "Начало познания мира",
+        "Корректор",
+        "Биполярное расстройство",
+        "Куб"
+      ],
+      "properties": [
+        "Любовь без",
+        "какой-то мысли",
+        "Начало познания",
+        "мира"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 2,
+      "atomicNumber": 4,
+      "symbol": "Be",
+      "name": "Бериллий",
+      "atomicMass": "9.0122",
+      "category": "alkaline",
+      "text": [
+        "Сверхновая звезда",
+        "Твёрдый",
+        "Хрупкий",
+        "Высокая чувствительность",
+        "Робкий",
+        "Страх толпы",
+        "Изумруд"
+      ],
+      "properties": [
+        "Твёрдый",
+        "Хрупкий",
+        "Робкий"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 3,
+      "atomicNumber": 5,
+      "symbol": "B",
+      "name": "Бор",
+      "atomicMass": "10.81",
+      "category": "metalloid",
+      "text": [
+        "Нет личности",
+        "Не существую",
+        "Необходимо к кому-то присоединиться",
+        "Старомодный"
+      ],
+      "properties": [
+        "Нет личности",
+        "Не существую"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 4,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [],
+      "properties": [],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 5,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [],
+      "properties": [],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 6,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [],
+      "properties": [],
       "plants": [],
       "animals": []
     },
@@ -1695,6 +920,273 @@
       "animals": []
     },
     {
+      "period": 2,
+      "column": 13,
+      "atomicNumber": 5,
+      "symbol": "B",
+      "name": "Бор",
+      "atomicMass": "10.81",
+      "category": "metalloid",
+      "text": [
+        "Песок. Земля. Бур",
+        "Прочная основа",
+        "Мудрая. «Яжемать",
+        "Нет личности",
+        "Не существую",
+        "Необходимо к"
+      ],
+      "properties": [
+        "Прочная основа",
+        "Мудрая. «Яжемать",
+        "Нет личности",
+        "Не существую",
+        "Необходимо к"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 14,
+      "atomicNumber": 6,
+      "symbol": "C",
+      "name": "Углерод",
+      "atomicMass": "12.011",
+      "category": "nonmetal",
+      "text": [
+        "Паразит. Сутенё",
+        "Не чувствует бол",
+        "Катарсис в грозу",
+        "Алмаз – прочност",
+        "Графит – прах",
+        "От проекта до"
+      ],
+      "properties": [
+        "Не чувствует бол",
+        "Катарсис в грозу",
+        "Алмаз – прочност",
+        "Графит – прах",
+        "От проекта до"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 15,
+      "atomicNumber": 7,
+      "symbol": "N",
+      "name": "Азот",
+      "atomicMass": "14.007",
+      "category": "nonmetal",
+      "text": [
+        "Витает в облака",
+        "Сюр. Единорог",
+        "Спасение. Апофео",
+        "Начал взаимо-",
+        "действовать",
+        "Предвкушение"
+      ],
+      "properties": [
+        "Сюр. Единорог",
+        "Спасение. Апофео",
+        "Начал взаимо-",
+        "действовать",
+        "Предвкушение"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 16,
+      "atomicNumber": 8,
+      "symbol": "O",
+      "name": "Кислород",
+      "atomicMass": "15.999",
+      "category": "nonmetal",
+      "text": [
+        "Масштаб личност",
+        "Человечество",
+        "Слом. Отшельник",
+        "Готов к",
+        "дальнейшему",
+        "взаимодействию"
+      ],
+      "properties": [
+        "Человечество",
+        "Слом. Отшельник",
+        "Готов к",
+        "дальнейшему",
+        "взаимодействию"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 17,
+      "atomicNumber": 9,
+      "symbol": "F",
+      "name": "Фтор",
+      "atomicMass": "18.998",
+      "category": "nonmetal",
+      "text": [
+        "Иов. Рождение",
+        "духовного человек",
+        "Инициация. Дух",
+        "Активная фаза",
+        "идёт на убывание",
+        "Крайне бурно"
+      ],
+      "properties": [
+        "духовного человек",
+        "Инициация. Дух",
+        "Активная фаза",
+        "идёт на убывание",
+        "Крайне бурно"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 2,
+      "column": 18,
+      "atomicNumber": 10,
+      "symbol": "Ne",
+      "name": "Неон",
+      "atomicMass": "20.180",
+      "category": "noble",
+      "text": [
+        "Телепортация",
+        "Наркозность",
+        "Тема голоса",
+        "Инертный газ",
+        "Статус-кво",
+        "Космос. Новый"
+      ],
+      "properties": [
+        "Наркозность",
+        "Тема голоса",
+        "Инертный газ",
+        "Статус-кво",
+        "Космос. Новый"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 3,
+      "column": 1,
+      "atomicNumber": 11,
+      "symbol": "Na",
+      "name": "Натрий",
+      "atomicMass": "22.990",
+      "category": "alkali",
+      "text": [
+        "Общения нет",
+        "Человек разговаривает сам с собой"
+      ],
+      "properties": [
+        "Общения нет"
+      ],
+      "plants": [],
+      "animals": [
+        "Вирусы",
+        "Бактерии"
+      ]
+    },
+    {
+      "period": 3,
+      "column": 2,
+      "atomicNumber": 12,
+      "symbol": "Mg",
+      "name": "Магний",
+      "atomicMass": "24.305",
+      "category": "alkaline",
+      "text": [
+        "Неуверенный в отношениях"
+      ],
+      "properties": [
+        "Неуверенный в",
+        "отношениях"
+      ],
+      "plants": [
+        "Плауновидные 3-422",
+        "Магнолииды 3-622",
+        "Аровидные 3-632"
+      ],
+      "animals": [
+        "Вирусы",
+        "Бактерии"
+      ]
+    },
+    {
+      "period": 3,
+      "column": 3,
+      "atomicNumber": 13,
+      "symbol": "Al",
+      "name": "Алюминий",
+      "atomicMass": "26.982",
+      "category": "poor",
+      "text": [
+        "Мёртвый металл",
+        "Я есть, но не в группе",
+        "Символы",
+        "Смыслы"
+      ],
+      "properties": [
+        "Мёртвый металл",
+        "Я есть, но",
+        "не в группе"
+      ],
+      "plants": [
+        "Грибы"
+      ],
+      "animals": [
+        "Вирусы"
+      ]
+    },
+    {
+      "period": 3,
+      "column": 4,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [],
+      "properties": [],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 3,
+      "column": 5,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [],
+      "properties": [],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 3,
+      "column": 6,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [],
+      "properties": [],
+      "plants": [],
+      "animals": []
+    },
+    {
       "period": 3,
       "column": 7,
       "atomicNumber": null,
@@ -1856,1166 +1348,6 @@
       "animals": []
     },
     {
-      "period": 4,
-      "column": 7,
-      "atomicNumber": 25,
-      "symbol": "Mn",
-      "name": "Марганец",
-      "atomicMass": "54.938",
-      "category": "transition",
-      "text": [
-        "Грань. Половая",
-        "функция. Детищ",
-        "Покровительств",
-        "Серьёзные",
-        "отношения",
-        "Единая женская"
-      ],
-      "properties": [
-        "функция. Детищ",
-        "Покровительств",
-        "Серьёзные",
-        "отношения",
-        "Единая женская"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 8,
-      "atomicNumber": 26,
-      "symbol": "Fe",
-      "name": "Железо",
-      "atomicMass": "55.845",
-      "category": "transition",
-      "text": [
-        "Розовые очки",
-        "Баунти. Черника",
-        "Инженер. Врач",
-        "Fe Феррум",
-        "Космос. Метеори",
-        "Реакционность",
-        "Совместный труд"
-      ],
-      "properties": [
-        "Баунти. Черника",
-        "Инженер. Врач",
-        "Космос. Метеори",
-        "Реакционность",
-        "Совместный труд"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 9,
-      "atomicNumber": 27,
-      "symbol": "Co",
-      "name": "Кобальт",
-      "atomicMass": "58.933",
-      "category": "transition",
-      "text": [
-        "Летаргический со",
-        "Бездействие.Бездн",
-        "Солнце, аллерги",
-        "Желание работать",
-        "Безупречный",
-        "Холодность"
-      ],
-      "properties": [
-        "Бездействие.Бездн",
-        "Солнце, аллерги",
-        "Желание работать",
-        "Безупречный",
-        "Холодность"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 10,
-      "atomicNumber": 28,
-      "symbol": "Ni",
-      "name": "Никель",
-      "atomicMass": "58.693",
-      "category": "transition",
-      "text": [
-        "Хвощи 3-433",
-        "Злаки 3-633.4",
-        "Отношения на",
-        "почве работы",
-        "Аккумуляторы"
-      ],
-      "properties": [
-        "Злаки 3-633.4",
-        "Отношения на",
-        "почве работы",
-        "Аккумуляторы"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 11,
-      "atomicNumber": 29,
-      "symbol": "Cu",
-      "name": "Медь",
-      "atomicMass": "63.546",
-      "category": "transition",
-      "text": [
-        "Лицо становится",
-        "тяжелым. Лик",
-        "Бородавки",
-        "Работа, энтузиаз",
-        "Фанатичен",
-        "Инки. Топор. Кип"
-      ],
-      "properties": [
-        "тяжелым. Лик",
-        "Бородавки",
-        "Работа, энтузиаз",
-        "Фанатичен",
-        "Инки. Топор. Кип"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 4,
-      "column": 12,
-      "atomicNumber": 30,
-      "symbol": "Zn",
-      "name": "Цинк",
-      "atomicMass": "65.38",
-      "category": "transition",
-      "text": [
-        "речи. Надлом",
-        "Депрессия",
-        "Бесноватый. Нож",
-        "Есть перспективы,",
-        "но не вступает в",
-        "новые проекты"
-      ],
-      "properties": [
-        "Депрессия",
-        "Бесноватый. Нож",
-        "Есть перспективы,",
-        "но не вступает в",
-        "новые проекты"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 5,
-      "column": 7,
-      "atomicNumber": 43,
-      "symbol": "Tc",
-      "name": "Технеций",
-      "atomicMass": "(98)",
-      "category": "transition",
-      "text": [
-        "Лежать в постел",
-        "Хорея. Анемия",
-        "Искусственный",
-        "Неестественност",
-        "Творение – это я"
-      ],
-      "properties": [
-        "Хорея. Анемия",
-        "Искусственный",
-        "Неестественност",
-        "Творение – это я"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 5,
-      "column": 8,
-      "atomicNumber": 44,
-      "symbol": "Ru",
-      "name": "Рутений",
-      "atomicMass": "101.07",
-      "category": "transition",
-      "text": [
-        "всем, иначе это",
-        "будет нас съедат",
-        "Устойчив. Ускори",
-        "тель. Вторичност",
-        "Стабилизация в"
-      ],
-      "properties": [
-        "будет нас съедат",
-        "Устойчив. Ускори",
-        "тель. Вторичност",
-        "Стабилизация в"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 5,
-      "column": 9,
-      "atomicNumber": 45,
-      "symbol": "Rh",
-      "name": "Родий",
-      "atomicMass": "102.91",
-      "category": "transition",
-      "text": [
-        "Рабство. Чернь",
-        "Мутации. Пиво",
-        "Ценность/обесц-",
-        "Инвестирование",
-        "Разложение"
-      ],
-      "properties": [
-        "Мутации. Пиво",
-        "Ценность/обесц-",
-        "Инвестирование",
-        "Разложение"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 5,
-      "column": 10,
-      "atomicNumber": 46,
-      "symbol": "Pd",
-      "name": "Палладий",
-      "atomicMass": "106.42",
-      "category": "transition",
-      "text": [
-        "Музыка. Перья",
-        "Витилиго",
-        "Тактик. Суворов",
-        "Радиолярии",
-        "Губки"
-      ],
-      "properties": [
-        "Витилиго",
-        "Тактик. Суворов",
-        "Радиолярии",
-        "Губки"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 5,
-      "column": 11,
-      "atomicNumber": 47,
-      "symbol": "Ag",
-      "name": "Серебро",
-      "atomicMass": "107.87",
-      "category": "transition",
-      "text": [
-        "Венера. Тепло",
-        "Судороги. Кости",
-        "Эксклюзивный",
-        "продукт. Белый",
-        "Луна. Снимок"
-      ],
-      "properties": [
-        "Судороги. Кости",
-        "Эксклюзивный",
-        "продукт. Белый",
-        "Луна. Снимок"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 5,
-      "column": 12,
-      "atomicNumber": 48,
-      "symbol": "Cd",
-      "name": "Кадмий",
-      "atomicMass": "112.41",
-      "category": "transition",
-      "text": [
-        "Влияет на рост",
-        "Депрессия",
-        "Рутина, а мир",
-        "ушёл вперед",
-        "Зависть. Гадкий"
-      ],
-      "properties": [
-        "Депрессия",
-        "Рутина, а мир",
-        "ушёл вперед",
-        "Зависть. Гадкий"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 6,
-      "column": 7,
-      "atomicNumber": 75,
-      "symbol": "Re",
-      "name": "Рений",
-      "atomicMass": "186.21",
-      "category": "transition",
-      "text": [
-        "Пигмалион.Галат",
-        "Зубатые кит",
-        "Сопротивление",
-        "Германия. Реван",
-        "Военный. Скорост"
-      ],
-      "properties": [
-        "Зубатые кит",
-        "Сопротивление",
-        "Германия. Реван",
-        "Военный. Скорост"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 6,
-      "column": 8,
-      "atomicNumber": 76,
-      "symbol": "Os",
-      "name": "Осмий",
-      "atomicMass": "190.23",
-      "category": "transition",
-      "text": [
-        "Усатые киты",
-        "Амбра",
-        "Едкий запах.",
-        "Творческая",
-        "активность. Поис"
-      ],
-      "properties": [
-        "Амбра",
-        "Едкий запах.",
-        "Творческая",
-        "активность. Поис"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 6,
-      "column": 9,
-      "atomicNumber": 77,
-      "symbol": "Ir",
-      "name": "Иридий",
-      "atomicMass": "192.22",
-      "category": "transition",
-      "text": [
-        "БЦЖ1",
-        "Зоопланктон",
-        "Метеорит. Солнц",
-        "Радуга. Эталон",
-        "Полорогие,вк"
-      ],
-      "properties": [
-        "Зоопланктон",
-        "Метеорит. Солнц",
-        "Радуга. Эталон",
-        "Полорогие,вк"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 6,
-      "column": 10,
-      "atomicNumber": 78,
-      "symbol": "Pt",
-      "name": "Платина",
-      "atomicMass": "195.08",
-      "category": "transition",
-      "text": [
-        "Иглокожие",
-        "Ракообразные",
-        "Эстет. Начинает",
-        "управлять. Велик",
-        ". Ярость. Дрожь"
-      ],
-      "properties": [
-        "Ракообразные",
-        "Эстет. Начинает",
-        "управлять. Велик",
-        ". Ярость. Дрожь"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 6,
-      "column": 11,
-      "atomicNumber": 79,
-      "symbol": "Au",
-      "name": "Золото",
-      "atomicMass": "196.97",
-      "category": "transition",
-      "text": [
-        "Мозг. Ляпис",
-        "Земноводные",
-        "Начало власти",
-        "Идеалист. Суицид",
-        "Жёлтый. Элитный"
-      ],
-      "properties": [
-        "Земноводные",
-        "Начало власти",
-        "Идеалист. Суицид",
-        "Жёлтый. Элитный"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 6,
-      "column": 12,
-      "atomicNumber": 80,
-      "symbol": "Hg",
-      "name": "Ртуть",
-      "atomicMass": "200.59",
-      "category": "transition",
-      "text": [
-        "Нож. Яд. Глухота",
-        "Многожилковые",
-        "Инертность",
-        "Нет рефлексии",
-        "Жёсткость и"
-      ],
-      "properties": [
-        "Многожилковые",
-        "Инертность",
-        "Нет рефлексии",
-        "Жёсткость и"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 7,
-      "atomicNumber": 107,
-      "symbol": "Bh",
-      "name": "Борий",
-      "atomicMass": "(270)",
-      "category": "transition",
-      "text": [
-        "Оленевые",
-        "Кабарговые",
-        "Жирафовые",
-        "Синтезирован",
-        "Дополнитель-",
-        "ность. Неопреде-"
-      ],
-      "properties": [
-        "Кабарговые",
-        "Жирафовые",
-        "Синтезирован",
-        "Дополнитель-",
-        "ность. Неопреде-"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 8,
-      "atomicNumber": 108,
-      "symbol": "Hs",
-      "name": "Хассий",
-      "atomicMass": "(277)",
-      "category": "transition",
-      "text": [
-        "вкл.Виверров",
-        "Аспидовые",
-        "Трансактиноид",
-        "Скрытый",
-        "Есть опыт"
-      ],
-      "properties": [
-        "Аспидовые",
-        "Трансактиноид",
-        "Скрытый",
-        "Есть опыт"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 9,
-      "atomicNumber": 109,
-      "symbol": "Mt",
-      "name": "Мейтнерий",
-      "atomicMass": "(278)",
-      "category": "nocategory",
-      "text": [
-        "е Туберкулину",
-        "Гадюковые",
-        "Mt Мейтнери",
-        "Почти решенная",
-        "тема добра и зла",
-        "Воздействие на"
-      ],
-      "properties": [
-        "Гадюковые",
-        "Почти решенная",
-        "тема добра и зла",
-        "Воздействие на"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 10,
-      "atomicNumber": 110,
-      "symbol": "Ds",
-      "name": "Дармштадтий",
-      "atomicMass": "(281)",
-      "category": "nocategory",
-      "text": [
-        "Лошадиные",
-        "Ложноногие",
-        "Ds Дармштадти",
-        "Управленческая",
-        "усталость. Уход",
-        "от мирского."
-      ],
-      "properties": [
-        "Ложноногие",
-        "Ds Дармштадти",
-        "Управленческая",
-        "усталость. Уход",
-        "от мирского."
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 11,
-      "atomicNumber": 111,
-      "symbol": "Rg",
-      "name": "Рентгений",
-      "atomicMass": "(282)",
-      "category": "nocategory",
-      "text": [
-        "Бегемоты",
-        "Свинообразные",
-        "Последний шанс",
-        "во власти. № 111",
-        "Высокая острота"
-      ],
-      "properties": [
-        "Свинообразные",
-        "Последний шанс",
-        "во власти. № 111",
-        "Высокая острота"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 12,
-      "atomicNumber": 112,
-      "symbol": "Cn",
-      "name": "Коперниций",
-      "atomicMass": "(285)",
-      "category": "nocategory",
-      "text": [
-        "Суицид. Насилие",
-        "Слоновые",
-        "Все сделано",
-        "Впереди только",
-        "духовные вершины"
-      ],
-      "properties": [
-        "Слоновые",
-        "Все сделано",
-        "Впереди только",
-        "духовные вершины"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 7,
-      "atomicNumber": 61,
-      "symbol": "Pm",
-      "name": "Прометий",
-      "atomicMass": "(145)",
-      "category": "lanthanoid",
-      "text": [
-        "Дуализм. Пара",
-        "Спортивность",
-        "Огонь. Светоч",
-        "Источник тока"
-      ],
-      "properties": [
-        "Спортивность",
-        "Огонь. Светоч",
-        "Источник тока"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 8,
-      "atomicNumber": 62,
-      "symbol": "Sm",
-      "name": "Самарий",
-      "atomicMass": "150.36",
-      "category": "lanthanoid",
-      "text": [
-        "наращивает его",
-        "Хочет стать",
-        "реальным"
-      ],
-      "properties": [
-        "Хочет стать",
-        "реальным"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 9,
-      "atomicNumber": 63,
-      "symbol": "Eu",
-      "name": "Европий",
-      "atomicMass": "151.96",
-      "category": "lanthanoid",
-      "text": [
-        "Первый в честь",
-        "женщины",
-        "Базовое управлени",
-        "и творчество"
-      ],
-      "properties": [
-        "женщины",
-        "Базовое управлени",
-        "и творчество"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 10,
-      "atomicNumber": 64,
-      "symbol": "Gd",
-      "name": "Гадолиний",
-      "atomicMass": "157.25",
-      "category": "lanthanoid",
-      "text": [
-        "Настоятель",
-        "монастыря",
-        "Gd Гадолини",
-        "Интересная и",
-        "сложная работа"
-      ],
-      "properties": [
-        "монастыря",
-        "Интересная и",
-        "сложная работа"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 11,
-      "atomicNumber": 65,
-      "symbol": "Tb",
-      "name": "Тербий",
-      "atomicMass": "158.93",
-      "category": "lanthanoid",
-      "text": [
-        "власть. Европей-",
-        "ская тема",
-        "Локальный",
-        "уровень власти"
-      ],
-      "properties": [
-        "ская тема",
-        "Локальный",
-        "уровень власти"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "6a",
-      "column": 12,
-      "atomicNumber": 66,
-      "symbol": "Dy",
-      "name": "Диспрозий",
-      "atomicMass": "162.50",
-      "category": "lanthanoid",
-      "text": [
-        "Первая научная",
-        "революция",
-        "На пике своих",
-        "возможностей"
-      ],
-      "properties": [
-        "революция",
-        "На пике своих",
-        "возможностей"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 7,
-      "atomicNumber": 93,
-      "symbol": "Np",
-      "name": "Нептуний",
-      "atomicMass": "(237)",
-      "category": "actinoid",
-      "text": [
-        "свободу",
-        "Неординарный",
-        "Человеколюбие",
-        "Первый",
-        "Последний"
-      ],
-      "properties": [
-        "Неординарный",
-        "Человеколюбие",
-        "Первый",
-        "Последний"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 8,
-      "atomicNumber": 94,
-      "symbol": "Pu",
-      "name": "Плутоний",
-      "atomicMass": "(244)",
-      "category": "actinoid",
-      "text": [
-        "Идеальный мир",
-        "Перетрудился и",
-        "рассыпался. Врач",
-        "Основная драма",
-        "7 разных состояни"
-      ],
-      "properties": [
-        "Перетрудился и",
-        "рассыпался. Врач",
-        "Основная драма",
-        "7 разных состояни"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 9,
-      "atomicNumber": 95,
-      "symbol": "Am",
-      "name": "Америций",
-      "atomicMass": "(243)",
-      "category": "actinoid",
-      "text": [
-        "уверен в себе",
-        "Европа. Евро",
-        "Не сила, а ум",
-        "Am Америци",
-        "Большой",
-        "творческий"
-      ],
-      "properties": [
-        "Европа. Евро",
-        "Не сила, а ум",
-        "Большой",
-        "творческий"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 10,
-      "atomicNumber": 96,
-      "symbol": "Cm",
-      "name": "Кюрий",
-      "atomicMass": "(247)",
-      "category": "actinoid",
-      "text": [
-        "человек. Коуч",
-        "Создание стиля",
-        "Афродизиак",
-        "Глубоко понимае",
-        "темы добра и зла"
-      ],
-      "properties": [
-        "Создание стиля",
-        "Афродизиак",
-        "Глубоко понимае",
-        "темы добра и зла"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 11,
-      "atomicNumber": 97,
-      "symbol": "Bk",
-      "name": "Берклий",
-      "atomicMass": "(247)",
-      "category": "actinoid",
-      "text": [
-        "спаситель",
-        "Джентльмен-врач",
-        "Малая родина",
-        "Творчество в",
-        "науке. Наукоград"
-      ],
-      "properties": [
-        "Джентльмен-врач",
-        "Малая родина",
-        "Творчество в",
-        "науке. Наукоград"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": "7a",
-      "column": 12,
-      "atomicNumber": 98,
-      "symbol": "Cf",
-      "name": "Калифорний",
-      "atomicMass": "(251)",
-      "category": "actinoid",
-      "text": [
-        "работа. Защитник",
-        "свободы.",
-        "Сопротивляется",
-        "Вера. Любовь",
-        "Расцвет творчества"
-      ],
-      "properties": [
-        "свободы.",
-        "Сопротивляется",
-        "Вера. Любовь",
-        "Расцвет творчества"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 1,
-      "column": 13,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Женщина. Дети",
-        "Материнство. ЭК",
-        "Яйцо. Яйцеклетк",
-        "Ребенок с чудинко"
-      ],
-      "properties": [
-        "Женщина. Дети",
-        "Материнство. ЭК",
-        "Яйцо. Яйцеклетк",
-        "Ребенок с чудинко"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 1,
-      "column": 14,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Санитар обществ",
-        "Супермен. Стука",
-        "Сын судит отца",
-        "Крысолов. Гулливе"
-      ],
-      "properties": [
-        "Санитар обществ",
-        "Супермен. Стука",
-        "Сын судит отца",
-        "Крысолов. Гулливе"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 1,
-      "column": 15,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Не различает",
-        "добро и зло. 12",
-        "Скелет в шкафу",
-        "Бред величия"
-      ],
-      "properties": [
-        "Не различает",
-        "добро и зло. 12",
-        "Скелет в шкафу",
-        "Бред величия"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 1,
-      "column": 16,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Миссия. Сила дух",
-        "Мезальянс. Честь",
-        "Наука. Прогресс",
-        "Меценат. Нобель"
-      ],
-      "properties": [
-        "Миссия. Сила дух",
-        "Мезальянс. Честь",
-        "Наука. Прогресс",
-        "Меценат. Нобель"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 1,
-      "column": 17,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": null,
-      "text": [
-        "Принятие судьбы",
-        "Испытания. Потер",
-        "Не сломался. Уро",
-        "Привычка"
-      ],
-      "properties": [
-        "Принятие судьбы",
-        "Испытания. Потер",
-        "Не сломался. Уро",
-        "Привычка"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 1,
-      "column": 18,
-      "atomicNumber": 2,
-      "symbol": "He",
-      "name": "Гелий",
-      "atomicMass": "4.0026",
-      "category": "noble",
-      "text": [
-        "Инертный газ",
-        "Солнце",
-        "Сверхтекучесть"
-      ],
-      "properties": [
-        "Инертный газ",
-        "Солнце",
-        "Сверхтекучесть"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 13,
-      "atomicNumber": 5,
-      "symbol": "B",
-      "name": "Бор",
-      "atomicMass": "10.81",
-      "category": "metalloid",
-      "text": [
-        "Песок. Земля. Бур",
-        "Прочная основа",
-        "Мудрая. «Яжемать",
-        "Нет личности",
-        "Не существую",
-        "Необходимо к"
-      ],
-      "properties": [
-        "Прочная основа",
-        "Мудрая. «Яжемать",
-        "Нет личности",
-        "Не существую",
-        "Необходимо к"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 14,
-      "atomicNumber": 6,
-      "symbol": "C",
-      "name": "Углерод",
-      "atomicMass": "12.011",
-      "category": "nonmetal",
-      "text": [
-        "Паразит. Сутенё",
-        "Не чувствует бол",
-        "Катарсис в грозу",
-        "Алмаз – прочност",
-        "Графит – прах",
-        "От проекта до"
-      ],
-      "properties": [
-        "Не чувствует бол",
-        "Катарсис в грозу",
-        "Алмаз – прочност",
-        "Графит – прах",
-        "От проекта до"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 15,
-      "atomicNumber": 7,
-      "symbol": "N",
-      "name": "Азот",
-      "atomicMass": "14.007",
-      "category": "nonmetal",
-      "text": [
-        "Витает в облака",
-        "Сюр. Единорог",
-        "Спасение. Апофео",
-        "Начал взаимо-",
-        "действовать",
-        "Предвкушение"
-      ],
-      "properties": [
-        "Сюр. Единорог",
-        "Спасение. Апофео",
-        "Начал взаимо-",
-        "действовать",
-        "Предвкушение"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 16,
-      "atomicNumber": 8,
-      "symbol": "O",
-      "name": "Кислород",
-      "atomicMass": "15.999",
-      "category": "nonmetal",
-      "text": [
-        "Масштаб личност",
-        "Человечество",
-        "Слом. Отшельник",
-        "Готов к",
-        "дальнейшему",
-        "взаимодействию"
-      ],
-      "properties": [
-        "Человечество",
-        "Слом. Отшельник",
-        "Готов к",
-        "дальнейшему",
-        "взаимодействию"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 17,
-      "atomicNumber": 9,
-      "symbol": "F",
-      "name": "Фтор",
-      "atomicMass": "18.998",
-      "category": "nonmetal",
-      "text": [
-        "Иов. Рождение",
-        "духовного человек",
-        "Инициация. Дух",
-        "Активная фаза",
-        "идёт на убывание",
-        "Крайне бурно"
-      ],
-      "properties": [
-        "духовного человек",
-        "Инициация. Дух",
-        "Активная фаза",
-        "идёт на убывание",
-        "Крайне бурно"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 2,
-      "column": 18,
-      "atomicNumber": 10,
-      "symbol": "Ne",
-      "name": "Неон",
-      "atomicMass": "20.180",
-      "category": "noble",
-      "text": [
-        "Телепортация",
-        "Наркозность",
-        "Тема голоса",
-        "Инертный газ",
-        "Статус-кво",
-        "Космос. Новый"
-      ],
-      "properties": [
-        "Наркозность",
-        "Тема голоса",
-        "Инертный газ",
-        "Статус-кво",
-        "Космос. Новый"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
       "period": 3,
       "column": 13,
       "atomicNumber": 13,
@@ -3171,6 +1503,297 @@
     },
     {
       "period": 4,
+      "column": 1,
+      "atomicNumber": 19,
+      "symbol": "K",
+      "name": "Калий",
+      "atomicMass": "39.098",
+      "category": "alkali",
+      "text": [
+        "Работа в проекте",
+        "Перекладывание вещей",
+        "Суетология",
+        "Маленький принц"
+      ],
+      "properties": [
+        "Работа в проекте",
+        "Суетология"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 2,
+      "atomicNumber": 20,
+      "symbol": "Ca",
+      "name": "Кальций",
+      "atomicMass": "40.078",
+      "category": "alkaline",
+      "text": [
+        "Известняк, гипс, мрамор, известь",
+        "Восстановитель",
+        "Высокая химическая активность",
+        "Скелет",
+        "Зубы"
+      ],
+      "properties": [
+        "Восстановитель",
+        "Скелет",
+        "Зубы"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 3,
+      "atomicNumber": 21,
+      "symbol": "Sc",
+      "name": "Скандий",
+      "atomicMass": "44.956",
+      "category": "transition",
+      "text": [
+        "Мёртвый металл",
+        "Желает о себе заявить",
+        "Работа",
+        "Смена работы",
+        "Скандировать",
+        "Парторг"
+      ],
+      "properties": [
+        "Желает о себе",
+        "Заявить",
+        "Работа"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 4,
+      "atomicNumber": 22,
+      "symbol": "Ti",
+      "name": "Титан",
+      "atomicMass": "47.867",
+      "category": "transition",
+      "text": [
+        "Сращивается с костью",
+        "Плотные отношения",
+        "Нет личного проекта",
+        "Штифт коронки"
+      ],
+      "properties": [
+        "Сращивается с",
+        "костью"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 5,
+      "atomicNumber": 23,
+      "symbol": "V",
+      "name": "Ванадий",
+      "atomicMass": "50.942",
+      "category": "transition",
+      "text": [
+        "Придаёт прочность",
+        "Начало отношений с внешним миром",
+        "Анорексия / булемия",
+        "Медали и жетоны"
+      ],
+      "properties": [
+        "Придаёт прочность",
+        "Начало отношений",
+        "с внешним миром"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 6,
+      "atomicNumber": 24,
+      "symbol": "Cr",
+      "name": "Хром",
+      "atomicMass": "51.996",
+      "category": "transition",
+      "text": [
+        "Биогенный",
+        "Рак",
+        "Твердый, хрупкий",
+        "Прямолинейный",
+        "Взлет / падение",
+        "Ощущение неудачи",
+        "Эрин Брокович"
+      ],
+      "properties": [
+        "Биогенный",
+        "Твердый",
+        "хрупкий"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 7,
+      "atomicNumber": 25,
+      "symbol": "Mn",
+      "name": "Марганец",
+      "atomicMass": "54.938",
+      "category": "transition",
+      "text": [
+        "Грань. Половая",
+        "функция. Детищ",
+        "Покровительств",
+        "Серьёзные",
+        "отношения",
+        "Единая женская"
+      ],
+      "properties": [
+        "функция. Детищ",
+        "Покровительств",
+        "Серьёзные",
+        "отношения",
+        "Единая женская"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 8,
+      "atomicNumber": 26,
+      "symbol": "Fe",
+      "name": "Железо",
+      "atomicMass": "55.845",
+      "category": "transition",
+      "text": [
+        "Розовые очки",
+        "Баунти. Черника",
+        "Инженер. Врач",
+        "Fe Феррум",
+        "Космос. Метеори",
+        "Реакционность",
+        "Совместный труд"
+      ],
+      "properties": [
+        "Баунти. Черника",
+        "Инженер. Врач",
+        "Космос. Метеори",
+        "Реакционность",
+        "Совместный труд"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 9,
+      "atomicNumber": 27,
+      "symbol": "Co",
+      "name": "Кобальт",
+      "atomicMass": "58.933",
+      "category": "transition",
+      "text": [
+        "Летаргический со",
+        "Бездействие.Бездн",
+        "Солнце, аллерги",
+        "Желание работать",
+        "Безупречный",
+        "Холодность"
+      ],
+      "properties": [
+        "Бездействие.Бездн",
+        "Солнце, аллерги",
+        "Желание работать",
+        "Безупречный",
+        "Холодность"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 10,
+      "atomicNumber": 28,
+      "symbol": "Ni",
+      "name": "Никель",
+      "atomicMass": "58.693",
+      "category": "transition",
+      "text": [
+        "Хвощи 3-433",
+        "Злаки 3-633.4",
+        "Отношения на",
+        "почве работы",
+        "Аккумуляторы"
+      ],
+      "properties": [
+        "Злаки 3-633.4",
+        "Отношения на",
+        "почве работы",
+        "Аккумуляторы"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 11,
+      "atomicNumber": 29,
+      "symbol": "Cu",
+      "name": "Медь",
+      "atomicMass": "63.546",
+      "category": "transition",
+      "text": [
+        "Лицо становится",
+        "тяжелым. Лик",
+        "Бородавки",
+        "Работа, энтузиаз",
+        "Фанатичен",
+        "Инки. Топор. Кип"
+      ],
+      "properties": [
+        "тяжелым. Лик",
+        "Бородавки",
+        "Работа, энтузиаз",
+        "Фанатичен",
+        "Инки. Топор. Кип"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
+      "column": 12,
+      "atomicNumber": 30,
+      "symbol": "Zn",
+      "name": "Цинк",
+      "atomicMass": "65.38",
+      "category": "transition",
+      "text": [
+        "речи. Надлом",
+        "Депрессия",
+        "Бесноватый. Нож",
+        "Есть перспективы,",
+        "но не вступает в",
+        "новые проекты"
+      ],
+      "properties": [
+        "Депрессия",
+        "Бесноватый. Нож",
+        "Есть перспективы,",
+        "но не вступает в",
+        "новые проекты"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 4,
       "column": 13,
       "atomicNumber": 31,
       "symbol": "Ga",
@@ -3309,6 +1932,302 @@
         "Инертный газ",
         "Инертность с",
         "оптимизмом"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 5,
+      "column": 1,
+      "atomicNumber": 37,
+      "symbol": "Rb",
+      "name": "Рубидий",
+      "atomicMass": "85.468",
+      "category": "alkali",
+      "text": [
+        "Творчество в проекте",
+        "Мечта",
+        "Проба",
+        "Фантазии",
+        "Галюцинации",
+        "Нет реализации"
+      ],
+      "properties": [
+        "Творчество в",
+        "проекте",
+        "Мечта"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 5,
+      "column": 2,
+      "atomicNumber": 38,
+      "symbol": "Sr",
+      "name": "Стронций",
+      "atomicMass": "87.62",
+      "category": "alkaline",
+      "text": [
+        "Мягкий",
+        "Ковкий",
+        "Пластичный",
+        "Высокоактивный",
+        "Морозостойкий",
+        "Ян Вермеер"
+      ],
+      "properties": [
+        "Мягкий",
+        "Ковкий",
+        "Пластичный"
+      ],
+      "plants": [],
+      "animals": [
+        "Моллюски"
+      ]
+    },
+    {
+      "period": 5,
+      "column": 3,
+      "atomicNumber": 39,
+      "symbol": "Y",
+      "name": "Иттрий",
+      "atomicMass": "88.906",
+      "category": "transition",
+      "text": [
+        "Поиск идей",
+        "Эксклюзивность",
+        "Присосаться"
+      ],
+      "properties": [
+        "Поиск идей",
+        "Эксклюзивность",
+        "Присосаться"
+      ],
+      "plants": [],
+      "animals": [
+        "Кольчат.черви",
+        "Пиявки. Миноги",
+        "Актинии"
+      ]
+    },
+    {
+      "period": 5,
+      "column": 4,
+      "atomicNumber": 40,
+      "symbol": "Zr",
+      "name": "Цирконий",
+      "atomicMass": "91.224",
+      "category": "transition",
+      "text": [
+        "Начало творчества",
+        "Ворота",
+        "Мост",
+        "Зубные протезы",
+        "Челюсти"
+      ],
+      "properties": [
+        "Начало творчеств",
+        "Ворота",
+        "Мост"
+      ],
+      "plants": [],
+      "animals": [
+        "Акулы",
+        "Рыбы"
+      ]
+    },
+    {
+      "period": 5,
+      "column": 5,
+      "atomicNumber": 41,
+      "symbol": "Nb",
+      "name": "Ниобий",
+      "atomicMass": "92.906",
+      "category": "transition",
+      "text": [
+        "Жаропрочный",
+        "Сотворчество",
+        "Все хочет узнать",
+        "Широкое общение",
+        "Уязвимость",
+        "Ниоба"
+      ],
+      "properties": [
+        "Жаропрочный",
+        "Сотворчество"
+      ],
+      "plants": [],
+      "animals": [
+        "Птицы"
+      ]
+    },
+    {
+      "period": 5,
+      "column": 6,
+      "atomicNumber": 42,
+      "symbol": "Mo",
+      "name": "Молибден",
+      "atomicMass": "95.95",
+      "category": "transition",
+      "text": [
+        "Сотворчество",
+        "Дерзкий",
+        "Грубый",
+        "Странник",
+        "Тоска по дому",
+        "Борется"
+      ],
+      "properties": [
+        "Борется",
+        "Грубый",
+        "Странник"
+      ],
+      "plants": [],
+      "animals": [
+        "певчие птицы (Воробьинообразные)"
+      ]
+    },
+    {
+      "period": 5,
+      "column": 7,
+      "atomicNumber": 43,
+      "symbol": "Tc",
+      "name": "Технеций",
+      "atomicMass": "(98)",
+      "category": "transition",
+      "text": [
+        "Лежать в постел",
+        "Хорея. Анемия",
+        "Искусственный",
+        "Неестественност",
+        "Творение – это я"
+      ],
+      "properties": [
+        "Хорея. Анемия",
+        "Искусственный",
+        "Неестественност",
+        "Творение – это я"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 5,
+      "column": 8,
+      "atomicNumber": 44,
+      "symbol": "Ru",
+      "name": "Рутений",
+      "atomicMass": "101.07",
+      "category": "transition",
+      "text": [
+        "всем, иначе это",
+        "будет нас съедат",
+        "Устойчив. Ускори",
+        "тель. Вторичност",
+        "Стабилизация в"
+      ],
+      "properties": [
+        "будет нас съедат",
+        "Устойчив. Ускори",
+        "тель. Вторичност",
+        "Стабилизация в"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 5,
+      "column": 9,
+      "atomicNumber": 45,
+      "symbol": "Rh",
+      "name": "Родий",
+      "atomicMass": "102.91",
+      "category": "transition",
+      "text": [
+        "Рабство. Чернь",
+        "Мутации. Пиво",
+        "Ценность/обесц-",
+        "Инвестирование",
+        "Разложение"
+      ],
+      "properties": [
+        "Мутации. Пиво",
+        "Ценность/обесц-",
+        "Инвестирование",
+        "Разложение"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 5,
+      "column": 10,
+      "atomicNumber": 46,
+      "symbol": "Pd",
+      "name": "Палладий",
+      "atomicMass": "106.42",
+      "category": "transition",
+      "text": [
+        "Музыка. Перья",
+        "Витилиго",
+        "Тактик. Суворов",
+        "Радиолярии",
+        "Губки"
+      ],
+      "properties": [
+        "Витилиго",
+        "Тактик. Суворов",
+        "Радиолярии",
+        "Губки"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 5,
+      "column": 11,
+      "atomicNumber": 47,
+      "symbol": "Ag",
+      "name": "Серебро",
+      "atomicMass": "107.87",
+      "category": "transition",
+      "text": [
+        "Венера. Тепло",
+        "Судороги. Кости",
+        "Эксклюзивный",
+        "продукт. Белый",
+        "Луна. Снимок"
+      ],
+      "properties": [
+        "Судороги. Кости",
+        "Эксклюзивный",
+        "продукт. Белый",
+        "Луна. Снимок"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 5,
+      "column": 12,
+      "atomicNumber": 48,
+      "symbol": "Cd",
+      "name": "Кадмий",
+      "atomicMass": "112.41",
+      "category": "transition",
+      "text": [
+        "Влияет на рост",
+        "Депрессия",
+        "Рутина, а мир",
+        "ушёл вперед",
+        "Зависть. Гадкий"
+      ],
+      "properties": [
+        "Депрессия",
+        "Рутина, а мир",
+        "ушёл вперед",
+        "Зависть. Гадкий"
       ],
       "plants": [],
       "animals": []
@@ -3459,6 +2378,278 @@
     },
     {
       "period": 6,
+      "column": 1,
+      "atomicNumber": 55,
+      "symbol": "Cs",
+      "name": "Цезий",
+      "atomicMass": "132.91",
+      "category": "alkali",
+      "text": [
+        "Управленец без реализации",
+        "Змей искуситель"
+      ],
+      "properties": [
+        "Управленец без",
+        "реализации"
+      ],
+      "plants": [],
+      "animals": [
+        "Змеи",
+        "Утконос",
+        "Ехидна"
+      ]
+    },
+    {
+      "period": 6,
+      "column": 2,
+      "atomicNumber": 56,
+      "symbol": "Ba",
+      "name": "Барий",
+      "atomicMass": "137.33",
+      "category": "alkaline",
+      "text": [
+        "Мягкий",
+        "Вязкий",
+        "Уменьшает агрессивность теплоносителей"
+      ],
+      "properties": [
+        "Мягкий",
+        "Вязкий"
+      ],
+      "plants": [],
+      "animals": [
+        "Сумчатые млекопитающие"
+      ]
+    },
+    {
+      "period": 6,
+      "column": 3,
+      "atomicNumber": "57-71",
+      "symbol": " ",
+      "name": "Лантаноиды",
+      "atomicMass": null,
+      "category": "lanthanoid",
+      "text": [],
+      "properties": [],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 6,
+      "column": 4,
+      "atomicNumber": 72,
+      "symbol": "Hf",
+      "name": "Гафний",
+      "atomicMass": "178.49",
+      "category": "transition",
+      "text": [
+        "Начинает карьеру руководителя",
+        "Тяжелый",
+        "Тугоплавкий",
+        "Инертный"
+      ],
+      "properties": [
+        "Начинает карьеру",
+        "руководителя"
+      ],
+      "plants": [],
+      "animals": [
+        "Грызуны"
+      ]
+    },
+    {
+      "period": 6,
+      "column": 5,
+      "atomicNumber": 73,
+      "symbol": "Ta",
+      "name": "Тантал",
+      "atomicMass": "180.95",
+      "category": "transition",
+      "text": [
+        "Сомнения, может ли руководить",
+        "Танталовы муки",
+        "Равновес",
+        "Нумизматика"
+      ],
+      "properties": [
+        "Сомнения, может",
+        "ли руководить"
+      ],
+      "plants": [],
+      "animals": [
+        "Змеи"
+      ]
+    },
+    {
+      "period": 6,
+      "column": 6,
+      "atomicNumber": 74,
+      "symbol": "W",
+      "name": "Вольфрам",
+      "atomicMass": "183.84",
+      "category": "transition",
+      "text": [
+        "Сияние",
+        "Хочет себя показать",
+        "Большие амбиции",
+        "Бросить вызов"
+      ],
+      "properties": [
+        "Бросить вызов",
+        "Большие амбиции"
+      ],
+      "plants": [],
+      "animals": [
+        "Гремучники",
+        "Собакообразные"
+      ]
+    },
+    {
+      "period": 6,
+      "column": 7,
+      "atomicNumber": 75,
+      "symbol": "Re",
+      "name": "Рений",
+      "atomicMass": "186.21",
+      "category": "transition",
+      "text": [
+        "Пигмалион.Галат",
+        "Зубатые кит",
+        "Сопротивление",
+        "Германия. Реван",
+        "Военный. Скорост"
+      ],
+      "properties": [
+        "Зубатые кит",
+        "Сопротивление",
+        "Германия. Реван",
+        "Военный. Скорост"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 6,
+      "column": 8,
+      "atomicNumber": 76,
+      "symbol": "Os",
+      "name": "Осмий",
+      "atomicMass": "190.23",
+      "category": "transition",
+      "text": [
+        "Усатые киты",
+        "Амбра",
+        "Едкий запах.",
+        "Творческая",
+        "активность. Поис"
+      ],
+      "properties": [
+        "Амбра",
+        "Едкий запах.",
+        "Творческая",
+        "активность. Поис"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 6,
+      "column": 9,
+      "atomicNumber": 77,
+      "symbol": "Ir",
+      "name": "Иридий",
+      "atomicMass": "192.22",
+      "category": "transition",
+      "text": [
+        "БЦЖ1",
+        "Зоопланктон",
+        "Метеорит. Солнц",
+        "Радуга. Эталон",
+        "Полорогие,вк"
+      ],
+      "properties": [
+        "Зоопланктон",
+        "Метеорит. Солнц",
+        "Радуга. Эталон",
+        "Полорогие,вк"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 6,
+      "column": 10,
+      "atomicNumber": 78,
+      "symbol": "Pt",
+      "name": "Платина",
+      "atomicMass": "195.08",
+      "category": "transition",
+      "text": [
+        "Иглокожие",
+        "Ракообразные",
+        "Эстет. Начинает",
+        "управлять. Велик",
+        ". Ярость. Дрожь"
+      ],
+      "properties": [
+        "Ракообразные",
+        "Эстет. Начинает",
+        "управлять. Велик",
+        ". Ярость. Дрожь"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 6,
+      "column": 11,
+      "atomicNumber": 79,
+      "symbol": "Au",
+      "name": "Золото",
+      "atomicMass": "196.97",
+      "category": "transition",
+      "text": [
+        "Мозг. Ляпис",
+        "Земноводные",
+        "Начало власти",
+        "Идеалист. Суицид",
+        "Жёлтый. Элитный"
+      ],
+      "properties": [
+        "Земноводные",
+        "Начало власти",
+        "Идеалист. Суицид",
+        "Жёлтый. Элитный"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 6,
+      "column": 12,
+      "atomicNumber": 80,
+      "symbol": "Hg",
+      "name": "Ртуть",
+      "atomicMass": "200.59",
+      "category": "transition",
+      "text": [
+        "Нож. Яд. Глухота",
+        "Многожилковые",
+        "Инертность",
+        "Нет рефлексии",
+        "Жёсткость и"
+      ],
+      "properties": [
+        "Многожилковые",
+        "Инертность",
+        "Нет рефлексии",
+        "Жёсткость и"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 6,
       "column": 13,
       "atomicNumber": 81,
       "symbol": "Tl",
@@ -3597,6 +2788,277 @@
         "Инертный газ",
         "Наиболее активен",
         "Землетрясения"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 1,
+      "atomicNumber": 87,
+      "symbol": "Fr",
+      "name": "Франций",
+      "atomicMass": "(223)",
+      "category": "alkali",
+      "text": [
+        "Добро и зло в проекте",
+        "Галлюцинации на метафизические и мистические темы"
+      ],
+      "properties": [
+        "Добро и зло в",
+        "проекте"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 2,
+      "atomicNumber": 88,
+      "symbol": "Ra",
+      "name": "Радий",
+      "atomicMass": "(226)",
+      "category": "alkaline",
+      "text": [
+        "Луч",
+        "Тускнеет на воздухе",
+        "Ядовитый",
+        "Радиоактивный",
+        "Редкий",
+        "Скрытая угроза"
+      ],
+      "properties": [
+        "Ядовитый",
+        "Скрытая угроза"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 3,
+      "atomicNumber": "89-103",
+      "symbol": " ",
+      "name": "Актиноиды",
+      "atomicMass": null,
+      "category": "actinoid",
+      "text": [],
+      "properties": [],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 4,
+      "atomicNumber": 104,
+      "symbol": "Rf",
+      "name": "Резерфордий",
+      "atomicMass": "(267)",
+      "category": "transition",
+      "text": [
+        "Трансактиноид",
+        "Олимп жизни",
+        "Тайная власть",
+        "Манипуляции",
+        "Тело как цель",
+        "Гипертелесность"
+      ],
+      "properties": [
+        "Олимп жизни",
+        "Тайная власть"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 5,
+      "atomicNumber": 105,
+      "symbol": "Db",
+      "name": "Дубний",
+      "atomicMass": "(268)",
+      "category": "transition",
+      "text": [
+        "Получен на ускорителе",
+        "Тайная власть",
+        "Большой вес",
+        "Узкий круг лиц",
+        "Разборки"
+      ],
+      "properties": [
+        "Большой вес",
+        "Узкий круг лиц"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 6,
+      "atomicNumber": 106,
+      "symbol": "Sg",
+      "name": "Сиборгий",
+      "atomicMass": "(269)",
+      "category": "transition",
+      "text": [
+        "Большая тема власти",
+        "Без творчества",
+        "Большая гордыня",
+        "Тайна",
+        "Нет реализации"
+      ],
+      "properties": [
+        "Большая гордыня",
+        "Без творчества"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 7,
+      "atomicNumber": 107,
+      "symbol": "Bh",
+      "name": "Борий",
+      "atomicMass": "(270)",
+      "category": "transition",
+      "text": [
+        "Оленевые",
+        "Кабарговые",
+        "Жирафовые",
+        "Синтезирован",
+        "Дополнитель-",
+        "ность. Неопреде-"
+      ],
+      "properties": [
+        "Кабарговые",
+        "Жирафовые",
+        "Синтезирован",
+        "Дополнитель-",
+        "ность. Неопреде-"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 8,
+      "atomicNumber": 108,
+      "symbol": "Hs",
+      "name": "Хассий",
+      "atomicMass": "(277)",
+      "category": "transition",
+      "text": [
+        "вкл.Виверров",
+        "Аспидовые",
+        "Трансактиноид",
+        "Скрытый",
+        "Есть опыт"
+      ],
+      "properties": [
+        "Аспидовые",
+        "Трансактиноид",
+        "Скрытый",
+        "Есть опыт"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 9,
+      "atomicNumber": 109,
+      "symbol": "Mt",
+      "name": "Мейтнерий",
+      "atomicMass": "(278)",
+      "category": "nocategory",
+      "text": [
+        "е Туберкулину",
+        "Гадюковые",
+        "Mt Мейтнери",
+        "Почти решенная",
+        "тема добра и зла",
+        "Воздействие на"
+      ],
+      "properties": [
+        "Гадюковые",
+        "Почти решенная",
+        "тема добра и зла",
+        "Воздействие на"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 10,
+      "atomicNumber": 110,
+      "symbol": "Ds",
+      "name": "Дармштадтий",
+      "atomicMass": "(281)",
+      "category": "nocategory",
+      "text": [
+        "Лошадиные",
+        "Ложноногие",
+        "Ds Дармштадти",
+        "Управленческая",
+        "усталость. Уход",
+        "от мирского."
+      ],
+      "properties": [
+        "Ложноногие",
+        "Ds Дармштадти",
+        "Управленческая",
+        "усталость. Уход",
+        "от мирского."
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 11,
+      "atomicNumber": 111,
+      "symbol": "Rg",
+      "name": "Рентгений",
+      "atomicMass": "(282)",
+      "category": "nocategory",
+      "text": [
+        "Бегемоты",
+        "Свинообразные",
+        "Последний шанс",
+        "во власти. № 111",
+        "Высокая острота"
+      ],
+      "properties": [
+        "Свинообразные",
+        "Последний шанс",
+        "во власти. № 111",
+        "Высокая острота"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": 7,
+      "column": 12,
+      "atomicNumber": 112,
+      "symbol": "Cn",
+      "name": "Коперниций",
+      "atomicMass": "(285)",
+      "category": "nocategory",
+      "text": [
+        "Суицид. Насилие",
+        "Слоновые",
+        "Все сделано",
+        "Впереди только",
+        "духовные вершины"
+      ],
+      "properties": [
+        "Слоновые",
+        "Все сделано",
+        "Впереди только",
+        "духовные вершины"
       ],
       "plants": [],
       "animals": []
@@ -3748,6 +3210,287 @@
     },
     {
       "period": "6a",
+      "column": 1,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Мечта",
+        "Энергия",
+        "Внутреннее воодушевление",
+        "Желание",
+        "Образ",
+        "Прожектор",
+        "Луч",
+        "Пятна",
+        "Цвета",
+        "Набросок",
+        "Вектор"
+      ],
+      "properties": [
+        "Мечта",
+        "Энергия",
+        "Внутреннее",
+        "воодушевление"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 2,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Сакральный момент",
+        "Зародыш",
+        "Тишина",
+        "Темнота",
+        "Тепло",
+        "Вода",
+        "Уют",
+        "Комфорт",
+        "Полная безопасность",
+        "Ощущение зависимости"
+      ],
+      "properties": [
+        "Сакральный",
+        "момент",
+        "Зародыш"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 3,
+      "atomicNumber": 57,
+      "symbol": "La",
+      "name": "Лантан",
+      "atomicMass": "138.91",
+      "category": "lanthanoid",
+      "text": [
+        "Наиболее распространён",
+        "Скрытый",
+        "Отсутствует индивидуальность",
+        "Маска",
+        "Клоун"
+      ],
+      "properties": [
+        "Скрытый",
+        "Маска"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 4,
+      "atomicNumber": 58,
+      "symbol": "Ce",
+      "name": "Церий",
+      "atomicMass": "140.12",
+      "category": "lanthanoid",
+      "text": [
+        "Токсичен для рыб",
+        "Биоаккумуляция",
+        "Усиливает сплавы на разрыв",
+        "Страх нового",
+        "Кокон",
+        "Недооценка"
+      ],
+      "properties": [
+        "Кокон",
+        "Биоаккумуляция"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 5,
+      "atomicNumber": 59,
+      "symbol": "Pr",
+      "name": "Празеодим",
+      "atomicMass": "140.91",
+      "category": "lanthanoid",
+      "text": [
+        "Тонкая инженерная мысль",
+        "Робкий",
+        "Осмотрительный",
+        "Светло-зеленый",
+        "Близнец",
+        "Стекло"
+      ],
+      "properties": [
+        "Робкий",
+        "Осмотрительный"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 6,
+      "atomicNumber": 60,
+      "symbol": "Nd",
+      "name": "Неодим",
+      "atomicMass": "144.24",
+      "category": "lanthanoid",
+      "text": [
+        "Тонкая подстройка",
+        "Соработничество",
+        "Декларативное поведение",
+        "Магнетизм",
+        "Близнец",
+        "Броня"
+      ],
+      "properties": [
+        "Магнетизм",
+        "Близнец",
+        "Броня"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 7,
+      "atomicNumber": 61,
+      "symbol": "Pm",
+      "name": "Прометий",
+      "atomicMass": "(145)",
+      "category": "lanthanoid",
+      "text": [
+        "Дуализм. Пара",
+        "Спортивность",
+        "Огонь. Светоч",
+        "Источник тока"
+      ],
+      "properties": [
+        "Спортивность",
+        "Огонь. Светоч",
+        "Источник тока"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 8,
+      "atomicNumber": 62,
+      "symbol": "Sm",
+      "name": "Самарий",
+      "atomicMass": "150.36",
+      "category": "lanthanoid",
+      "text": [
+        "наращивает его",
+        "Хочет стать",
+        "реальным"
+      ],
+      "properties": [
+        "Хочет стать",
+        "реальным"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 9,
+      "atomicNumber": 63,
+      "symbol": "Eu",
+      "name": "Европий",
+      "atomicMass": "151.96",
+      "category": "lanthanoid",
+      "text": [
+        "Первый в честь",
+        "женщины",
+        "Базовое управлени",
+        "и творчество"
+      ],
+      "properties": [
+        "женщины",
+        "Базовое управлени",
+        "и творчество"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 10,
+      "atomicNumber": 64,
+      "symbol": "Gd",
+      "name": "Гадолиний",
+      "atomicMass": "157.25",
+      "category": "lanthanoid",
+      "text": [
+        "Настоятель",
+        "монастыря",
+        "Gd Гадолини",
+        "Интересная и",
+        "сложная работа"
+      ],
+      "properties": [
+        "монастыря",
+        "Интересная и",
+        "сложная работа"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 11,
+      "atomicNumber": 65,
+      "symbol": "Tb",
+      "name": "Тербий",
+      "atomicMass": "158.93",
+      "category": "lanthanoid",
+      "text": [
+        "власть. Европей-",
+        "ская тема",
+        "Локальный",
+        "уровень власти"
+      ],
+      "properties": [
+        "ская тема",
+        "Локальный",
+        "уровень власти"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
+      "column": 12,
+      "atomicNumber": 66,
+      "symbol": "Dy",
+      "name": "Диспрозий",
+      "atomicMass": "162.50",
+      "category": "lanthanoid",
+      "text": [
+        "Первая научная",
+        "революция",
+        "На пике своих",
+        "возможностей"
+      ],
+      "properties": [
+        "революция",
+        "На пике своих",
+        "возможностей"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "6a",
       "column": 13,
       "atomicNumber": 67,
       "symbol": "Ho",
@@ -3877,6 +3620,289 @@
         "Образ – разбойник,",
         "который покаялся,",
         "уверовал и вошёл"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 1,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Проекция",
+        "Путь",
+        "Маршрут",
+        "Быть или не быть",
+        "Имею ли я право на жизнь?",
+        "Живу или не живу",
+        "Суицидальность"
+      ],
+      "properties": [
+        "Проекция",
+        "Маршрут"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 2,
+      "atomicNumber": null,
+      "symbol": null,
+      "name": null,
+      "atomicMass": null,
+      "category": null,
+      "text": [
+        "Неведение",
+        "Безусловность",
+        "Герметичный процесс",
+        "Гравитация",
+        "Скафандр",
+        "Материализация"
+      ],
+      "properties": [
+        "Безусловность",
+        "Гравитация"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 3,
+      "atomicNumber": 89,
+      "symbol": "Ac",
+      "name": "Актиний",
+      "atomicMass": "(227)",
+      "category": "actinoid",
+      "text": [
+        "Нераспространён",
+        "Радиоактивный яд",
+        "Источник энергии",
+        "Жизнь = смерть"
+      ],
+      "properties": [
+        "Источник энергии",
+        "Жизнь = смерть"
+      ],
+      "plants": [],
+      "animals": [
+        "Вирусы",
+        "Грибы"
+      ]
+    },
+    {
+      "period": "7a",
+      "column": 4,
+      "atomicNumber": 90,
+      "symbol": "Th",
+      "name": "Торий",
+      "atomicMass": "232.04",
+      "category": "actinoid",
+      "text": [
+        "Присутствует в тканях растений и животных",
+        "Живой",
+        "Защитник",
+        "Умеренная власть",
+        "Разумное управление"
+      ],
+      "properties": [
+        "Защитник",
+        "Разумное управление"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 5,
+      "atomicNumber": 91,
+      "symbol": "Pa",
+      "name": "Протактиний",
+      "atomicMass": "231.04",
+      "category": "actinoid",
+      "text": [
+        "Творчество высокого уровня",
+        "Научные исследования",
+        "Почки",
+        "Печень",
+        "Кости"
+      ],
+      "properties": [
+        "Творчество высокого",
+        "уровня"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 6,
+      "atomicNumber": 92,
+      "symbol": "U",
+      "name": "Уран",
+      "atomicMass": "238.03",
+      "category": "actinoid",
+      "text": [
+        "Энергетика",
+        "Сотворчество",
+        "Нарастающая тема власти",
+        "Планета",
+        "Бог неба",
+        "Рак легких"
+      ],
+      "properties": [
+        "Планета",
+        "Сотворчество"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 7,
+      "atomicNumber": 93,
+      "symbol": "Np",
+      "name": "Нептуний",
+      "atomicMass": "(237)",
+      "category": "actinoid",
+      "text": [
+        "свободу",
+        "Неординарный",
+        "Человеколюбие",
+        "Первый",
+        "Последний"
+      ],
+      "properties": [
+        "Неординарный",
+        "Человеколюбие",
+        "Первый",
+        "Последний"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 8,
+      "atomicNumber": 94,
+      "symbol": "Pu",
+      "name": "Плутоний",
+      "atomicMass": "(244)",
+      "category": "actinoid",
+      "text": [
+        "Идеальный мир",
+        "Перетрудился и",
+        "рассыпался. Врач",
+        "Основная драма",
+        "7 разных состояни"
+      ],
+      "properties": [
+        "Перетрудился и",
+        "рассыпался. Врач",
+        "Основная драма",
+        "7 разных состояни"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 9,
+      "atomicNumber": 95,
+      "symbol": "Am",
+      "name": "Америций",
+      "atomicMass": "(243)",
+      "category": "actinoid",
+      "text": [
+        "уверен в себе",
+        "Европа. Евро",
+        "Не сила, а ум",
+        "Am Америци",
+        "Большой",
+        "творческий"
+      ],
+      "properties": [
+        "Европа. Евро",
+        "Не сила, а ум",
+        "Большой",
+        "творческий"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 10,
+      "atomicNumber": 96,
+      "symbol": "Cm",
+      "name": "Кюрий",
+      "atomicMass": "(247)",
+      "category": "actinoid",
+      "text": [
+        "человек. Коуч",
+        "Создание стиля",
+        "Афродизиак",
+        "Глубоко понимае",
+        "темы добра и зла"
+      ],
+      "properties": [
+        "Создание стиля",
+        "Афродизиак",
+        "Глубоко понимае",
+        "темы добра и зла"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 11,
+      "atomicNumber": 97,
+      "symbol": "Bk",
+      "name": "Берклий",
+      "atomicMass": "(247)",
+      "category": "actinoid",
+      "text": [
+        "спаситель",
+        "Джентльмен-врач",
+        "Малая родина",
+        "Творчество в",
+        "науке. Наукоград"
+      ],
+      "properties": [
+        "Джентльмен-врач",
+        "Малая родина",
+        "Творчество в",
+        "науке. Наукоград"
+      ],
+      "plants": [],
+      "animals": []
+    },
+    {
+      "period": "7a",
+      "column": 12,
+      "atomicNumber": 98,
+      "symbol": "Cf",
+      "name": "Калифорний",
+      "atomicMass": "(251)",
+      "category": "actinoid",
+      "text": [
+        "работа. Защитник",
+        "свободы.",
+        "Сопротивляется",
+        "Вера. Любовь",
+        "Расцвет творчества"
+      ],
+      "properties": [
+        "свободы.",
+        "Сопротивляется",
+        "Вера. Любовь",
+        "Расцвет творчества"
       ],
       "plants": [],
       "animals": []
@@ -4027,44 +4053,6 @@
         "Шут гороховый",
         "Комедиант. Мафия",
         "Упиваться власть"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 6,
-      "column": 3,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": "lanthanoid",
-      "text": [
-        "57-71",
-        "Лантаноиды"
-      ],
-      "properties": [
-        "57-71",
-        "Лантаноиды"
-      ],
-      "plants": [],
-      "animals": []
-    },
-    {
-      "period": 7,
-      "column": 3,
-      "atomicNumber": null,
-      "symbol": null,
-      "name": null,
-      "atomicMass": null,
-      "category": "actinoid",
-      "text": [
-        "89-103",
-        "Актиноиды"
-      ],
-      "properties": [
-        "89-103",
-        "Актиноиды"
       ],
       "plants": [],
       "animals": []

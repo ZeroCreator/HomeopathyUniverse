@@ -42,9 +42,20 @@ export function PeriodicTable({ mode, onCellSelect }: PeriodicTableProps) {
       <div className="overflow-x-auto pb-4 -mx-4 px-4">
         <div className="grid gap-1 xl:gap-1.5 2xl:gap-2 periodic-grid">
           {/* Top-left corner */}
-          <div className="sticky left-0 z-10 bg-[#f8f7f4] flex flex-col justify-center px-2 text-[10px] font-medium leading-tight text-gray-600">
-            <span>Ряд таблицы</span>
-            <span>Миазм</span>
+          <div
+            className="sticky left-0 z-10 bg-[#f8f7f4] relative text-[10px] font-medium leading-tight text-gray-600"
+            style={{
+              background: 'linear-gradient(to top right, transparent 49%, #d4d0c8 49%, #d4d0c8 51%, transparent 51%)',
+            }}
+          >
+            <div className="absolute top-1.5 right-2 text-right">
+              <span className="block">Колонка таблицы</span>
+              <span className="block">Тема</span>
+            </div>
+            <div className="absolute bottom-1.5 left-2">
+              <span className="block">Ряд таблицы</span>
+              <span className="block">Миазм</span>
+            </div>
           </div>
 
           {/* Column headers */}
@@ -74,6 +85,7 @@ export function PeriodicTable({ mode, onCellSelect }: PeriodicTableProps) {
                   return (
                     <div
                       key={`cell-${period}-${col.id}`}
+                      className="aspect-[70/78] min-w-0 min-h-0"
                       style={{
                         gridRow: rowIndex + 2,
                         gridColumn: col.id + 1,
@@ -88,7 +100,7 @@ export function PeriodicTable({ mode, onCellSelect }: PeriodicTableProps) {
                           onMouseLeave={() => setHoveredCell(null)}
                         />
                       ) : (
-                        <div className="h-full rounded aspect-[70/78]" />
+                        <div className="h-full w-full rounded" />
                       )}
                     </div>
                   );
